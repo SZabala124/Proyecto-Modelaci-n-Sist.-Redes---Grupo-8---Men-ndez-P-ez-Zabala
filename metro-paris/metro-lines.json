@@ -1,0 +1,8541 @@
+[
+  {
+    "color": "#F58F53",
+    "name": "Tramway 3A",
+    "number": "3A",
+    "route_name": "PONT GARIGLIANO - HOP G.POMPIDOU <-> PORTE DE VINCENNES",
+    "id": "tramway-3a",
+    "mode": "tramway",
+    "topology_status": "legacy_unverified"
+  },
+  {
+    "color": "",
+    "name": "Tramway 3B",
+    "number": "3B",
+    "route_name": "Porte de vincennes <-> porte de la chapelle",
+    "id": "tramway-3b",
+    "mode": "tramway",
+    "topology_status": "legacy_unverified"
+  },
+  {
+    "color": "#BC438C",
+    "name": "Tramway 2",
+    "number": "T2",
+    "route_name": "Pont De Bezons <-> Porte de Versailles",
+    "id": "tramway-2",
+    "mode": "tramway",
+    "topology_status": "legacy_unverified"
+  },
+  {
+    "color": null,
+    "name": "RER A",
+    "number": "A",
+    "route_name": "RER A",
+    "id": "rer-a",
+    "mode": "rer",
+    "topology_status": "legacy_unverified"
+  },
+  {
+    "color": null,
+    "name": "RER B",
+    "number": "B",
+    "route_name": "RER B",
+    "id": "rer-b",
+    "mode": "rer",
+    "topology_status": "legacy_unverified"
+  },
+  {
+    "color": null,
+    "name": "RER C",
+    "number": "C",
+    "route_name": "RER C",
+    "id": "rer-c",
+    "mode": "rer",
+    "topology_status": "legacy_unverified"
+  },
+  {
+    "color": "#FECC2F",
+    "name": "Ligne 1",
+    "number": "1",
+    "route_name": "La Défense → Château de Vincennes",
+    "id": "ligne-1",
+    "mode": "metro",
+    "topology_status": "reviewed",
+    "topology_date": "2026-11-05",
+    "sources": [
+      "https://www.bonjour-ratp.fr/lignes-metro/ligne-1/",
+      "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/metro.pdf"
+    ],
+    "topology": "linear",
+    "routes": [
+      {
+        "id": "ligne-1:outbound",
+        "origin": 266,
+        "destination": 255,
+        "station_ids": [
+          266,
+          256,
+          253,
+          261,
+          258,
+          250,
+          259,
+          249,
+          251,
+          247,
+          243,
+          260,
+          252,
+          245,
+          257,
+          265,
+          264,
+          244,
+          263,
+          248,
+          242,
+          262,
+          254,
+          246,
+          255
+        ]
+      },
+      {
+        "id": "ligne-1:inbound",
+        "origin": 255,
+        "destination": 266,
+        "station_ids": [
+          255,
+          246,
+          254,
+          262,
+          242,
+          248,
+          263,
+          244,
+          264,
+          265,
+          257,
+          245,
+          252,
+          260,
+          243,
+          247,
+          251,
+          249,
+          259,
+          250,
+          258,
+          261,
+          253,
+          256,
+          266
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "source": 266,
+        "target": 256,
+        "segment_id": "ligne-1:256-266",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:outbound"
+        ]
+      },
+      {
+        "source": 256,
+        "target": 253,
+        "segment_id": "ligne-1:253-256",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:outbound"
+        ]
+      },
+      {
+        "source": 253,
+        "target": 261,
+        "segment_id": "ligne-1:253-261",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:outbound"
+        ]
+      },
+      {
+        "source": 261,
+        "target": 258,
+        "segment_id": "ligne-1:258-261",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:outbound"
+        ]
+      },
+      {
+        "source": 258,
+        "target": 250,
+        "segment_id": "ligne-1:250-258",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:outbound"
+        ]
+      },
+      {
+        "source": 250,
+        "target": 259,
+        "segment_id": "ligne-1:250-259",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:outbound"
+        ]
+      },
+      {
+        "source": 259,
+        "target": 249,
+        "segment_id": "ligne-1:249-259",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:outbound"
+        ]
+      },
+      {
+        "source": 249,
+        "target": 251,
+        "segment_id": "ligne-1:249-251",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:outbound"
+        ]
+      },
+      {
+        "source": 251,
+        "target": 247,
+        "segment_id": "ligne-1:247-251",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:outbound"
+        ]
+      },
+      {
+        "source": 247,
+        "target": 243,
+        "segment_id": "ligne-1:243-247",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:outbound"
+        ]
+      },
+      {
+        "source": 243,
+        "target": 260,
+        "segment_id": "ligne-1:243-260",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:outbound"
+        ]
+      },
+      {
+        "source": 260,
+        "target": 252,
+        "segment_id": "ligne-1:252-260",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:outbound"
+        ]
+      },
+      {
+        "source": 252,
+        "target": 245,
+        "segment_id": "ligne-1:245-252",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:outbound"
+        ]
+      },
+      {
+        "source": 245,
+        "target": 257,
+        "segment_id": "ligne-1:245-257",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:outbound"
+        ]
+      },
+      {
+        "source": 257,
+        "target": 265,
+        "segment_id": "ligne-1:257-265",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:outbound"
+        ]
+      },
+      {
+        "source": 265,
+        "target": 264,
+        "segment_id": "ligne-1:264-265",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:outbound"
+        ]
+      },
+      {
+        "source": 264,
+        "target": 244,
+        "segment_id": "ligne-1:244-264",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:outbound"
+        ]
+      },
+      {
+        "source": 244,
+        "target": 263,
+        "segment_id": "ligne-1:244-263",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:outbound"
+        ]
+      },
+      {
+        "source": 263,
+        "target": 248,
+        "segment_id": "ligne-1:248-263",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:outbound"
+        ]
+      },
+      {
+        "source": 248,
+        "target": 242,
+        "segment_id": "ligne-1:242-248",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:outbound"
+        ]
+      },
+      {
+        "source": 242,
+        "target": 262,
+        "segment_id": "ligne-1:242-262",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:outbound"
+        ]
+      },
+      {
+        "source": 262,
+        "target": 254,
+        "segment_id": "ligne-1:254-262",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:outbound"
+        ]
+      },
+      {
+        "source": 254,
+        "target": 246,
+        "segment_id": "ligne-1:246-254",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:outbound"
+        ]
+      },
+      {
+        "source": 246,
+        "target": 255,
+        "segment_id": "ligne-1:246-255",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:outbound"
+        ]
+      },
+      {
+        "source": 255,
+        "target": 246,
+        "segment_id": "ligne-1:246-255",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:inbound"
+        ]
+      },
+      {
+        "source": 246,
+        "target": 254,
+        "segment_id": "ligne-1:246-254",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:inbound"
+        ]
+      },
+      {
+        "source": 254,
+        "target": 262,
+        "segment_id": "ligne-1:254-262",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:inbound"
+        ]
+      },
+      {
+        "source": 262,
+        "target": 242,
+        "segment_id": "ligne-1:242-262",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:inbound"
+        ]
+      },
+      {
+        "source": 242,
+        "target": 248,
+        "segment_id": "ligne-1:242-248",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:inbound"
+        ]
+      },
+      {
+        "source": 248,
+        "target": 263,
+        "segment_id": "ligne-1:248-263",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:inbound"
+        ]
+      },
+      {
+        "source": 263,
+        "target": 244,
+        "segment_id": "ligne-1:244-263",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:inbound"
+        ]
+      },
+      {
+        "source": 244,
+        "target": 264,
+        "segment_id": "ligne-1:244-264",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:inbound"
+        ]
+      },
+      {
+        "source": 264,
+        "target": 265,
+        "segment_id": "ligne-1:264-265",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:inbound"
+        ]
+      },
+      {
+        "source": 265,
+        "target": 257,
+        "segment_id": "ligne-1:257-265",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:inbound"
+        ]
+      },
+      {
+        "source": 257,
+        "target": 245,
+        "segment_id": "ligne-1:245-257",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:inbound"
+        ]
+      },
+      {
+        "source": 245,
+        "target": 252,
+        "segment_id": "ligne-1:245-252",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:inbound"
+        ]
+      },
+      {
+        "source": 252,
+        "target": 260,
+        "segment_id": "ligne-1:252-260",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:inbound"
+        ]
+      },
+      {
+        "source": 260,
+        "target": 243,
+        "segment_id": "ligne-1:243-260",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:inbound"
+        ]
+      },
+      {
+        "source": 243,
+        "target": 247,
+        "segment_id": "ligne-1:243-247",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:inbound"
+        ]
+      },
+      {
+        "source": 247,
+        "target": 251,
+        "segment_id": "ligne-1:247-251",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:inbound"
+        ]
+      },
+      {
+        "source": 251,
+        "target": 249,
+        "segment_id": "ligne-1:249-251",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:inbound"
+        ]
+      },
+      {
+        "source": 249,
+        "target": 259,
+        "segment_id": "ligne-1:249-259",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:inbound"
+        ]
+      },
+      {
+        "source": 259,
+        "target": 250,
+        "segment_id": "ligne-1:250-259",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:inbound"
+        ]
+      },
+      {
+        "source": 250,
+        "target": 258,
+        "segment_id": "ligne-1:250-258",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:inbound"
+        ]
+      },
+      {
+        "source": 258,
+        "target": 261,
+        "segment_id": "ligne-1:258-261",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:inbound"
+        ]
+      },
+      {
+        "source": 261,
+        "target": 253,
+        "segment_id": "ligne-1:253-261",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:inbound"
+        ]
+      },
+      {
+        "source": 253,
+        "target": 256,
+        "segment_id": "ligne-1:253-256",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:inbound"
+        ]
+      },
+      {
+        "source": 256,
+        "target": 266,
+        "segment_id": "ligne-1:256-266",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-1:inbound"
+        ]
+      }
+    ],
+    "station_count": 25
+  },
+  {
+    "color": "#106FB6",
+    "name": "Ligne 2",
+    "number": "2",
+    "route_name": "Porte Dauphine → Nation",
+    "id": "ligne-2",
+    "mode": "metro",
+    "topology_status": "reviewed",
+    "topology_date": "2026-11-05",
+    "sources": [
+      "https://www.bonjour-ratp.fr/lignes-metro/ligne-2/",
+      "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/metro.pdf"
+    ],
+    "topology": "linear",
+    "routes": [
+      {
+        "id": "ligne-2:outbound",
+        "origin": 169,
+        "destination": 242,
+        "station_ids": [
+          169,
+          163,
+          259,
+          182,
+          183,
+          177,
+          173,
+          185,
+          167,
+          174,
+          164,
+          176,
+          170,
+          165,
+          175,
+          180,
+          172,
+          171,
+          184,
+          181,
+          168,
+          166,
+          178,
+          179,
+          242
+        ]
+      },
+      {
+        "id": "ligne-2:inbound",
+        "origin": 242,
+        "destination": 169,
+        "station_ids": [
+          242,
+          179,
+          178,
+          166,
+          168,
+          181,
+          184,
+          171,
+          172,
+          180,
+          175,
+          165,
+          170,
+          176,
+          164,
+          174,
+          167,
+          185,
+          173,
+          177,
+          183,
+          182,
+          259,
+          163,
+          169
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "source": 169,
+        "target": 163,
+        "segment_id": "ligne-2:163-169",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:outbound"
+        ]
+      },
+      {
+        "source": 163,
+        "target": 259,
+        "segment_id": "ligne-2:163-259",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:outbound"
+        ]
+      },
+      {
+        "source": 259,
+        "target": 182,
+        "segment_id": "ligne-2:182-259",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:outbound"
+        ]
+      },
+      {
+        "source": 182,
+        "target": 183,
+        "segment_id": "ligne-2:182-183",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:outbound"
+        ]
+      },
+      {
+        "source": 183,
+        "target": 177,
+        "segment_id": "ligne-2:177-183",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:outbound"
+        ]
+      },
+      {
+        "source": 177,
+        "target": 173,
+        "segment_id": "ligne-2:173-177",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:outbound"
+        ]
+      },
+      {
+        "source": 173,
+        "target": 185,
+        "segment_id": "ligne-2:173-185",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:outbound"
+        ]
+      },
+      {
+        "source": 185,
+        "target": 167,
+        "segment_id": "ligne-2:167-185",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:outbound"
+        ]
+      },
+      {
+        "source": 167,
+        "target": 174,
+        "segment_id": "ligne-2:167-174",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:outbound"
+        ]
+      },
+      {
+        "source": 174,
+        "target": 164,
+        "segment_id": "ligne-2:164-174",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:outbound"
+        ]
+      },
+      {
+        "source": 164,
+        "target": 176,
+        "segment_id": "ligne-2:164-176",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:outbound"
+        ]
+      },
+      {
+        "source": 176,
+        "target": 170,
+        "segment_id": "ligne-2:170-176",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:outbound"
+        ]
+      },
+      {
+        "source": 170,
+        "target": 165,
+        "segment_id": "ligne-2:165-170",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:outbound"
+        ]
+      },
+      {
+        "source": 165,
+        "target": 175,
+        "segment_id": "ligne-2:165-175",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:outbound"
+        ]
+      },
+      {
+        "source": 175,
+        "target": 180,
+        "segment_id": "ligne-2:175-180",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:outbound"
+        ]
+      },
+      {
+        "source": 180,
+        "target": 172,
+        "segment_id": "ligne-2:172-180",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:outbound"
+        ]
+      },
+      {
+        "source": 172,
+        "target": 171,
+        "segment_id": "ligne-2:171-172",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:outbound"
+        ]
+      },
+      {
+        "source": 171,
+        "target": 184,
+        "segment_id": "ligne-2:171-184",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:outbound"
+        ]
+      },
+      {
+        "source": 184,
+        "target": 181,
+        "segment_id": "ligne-2:181-184",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:outbound"
+        ]
+      },
+      {
+        "source": 181,
+        "target": 168,
+        "segment_id": "ligne-2:168-181",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:outbound"
+        ]
+      },
+      {
+        "source": 168,
+        "target": 166,
+        "segment_id": "ligne-2:166-168",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:outbound"
+        ]
+      },
+      {
+        "source": 166,
+        "target": 178,
+        "segment_id": "ligne-2:166-178",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:outbound"
+        ]
+      },
+      {
+        "source": 178,
+        "target": 179,
+        "segment_id": "ligne-2:178-179",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:outbound"
+        ]
+      },
+      {
+        "source": 179,
+        "target": 242,
+        "segment_id": "ligne-2:179-242",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:outbound"
+        ]
+      },
+      {
+        "source": 242,
+        "target": 179,
+        "segment_id": "ligne-2:179-242",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:inbound"
+        ]
+      },
+      {
+        "source": 179,
+        "target": 178,
+        "segment_id": "ligne-2:178-179",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:inbound"
+        ]
+      },
+      {
+        "source": 178,
+        "target": 166,
+        "segment_id": "ligne-2:166-178",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:inbound"
+        ]
+      },
+      {
+        "source": 166,
+        "target": 168,
+        "segment_id": "ligne-2:166-168",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:inbound"
+        ]
+      },
+      {
+        "source": 168,
+        "target": 181,
+        "segment_id": "ligne-2:168-181",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:inbound"
+        ]
+      },
+      {
+        "source": 181,
+        "target": 184,
+        "segment_id": "ligne-2:181-184",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:inbound"
+        ]
+      },
+      {
+        "source": 184,
+        "target": 171,
+        "segment_id": "ligne-2:171-184",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:inbound"
+        ]
+      },
+      {
+        "source": 171,
+        "target": 172,
+        "segment_id": "ligne-2:171-172",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:inbound"
+        ]
+      },
+      {
+        "source": 172,
+        "target": 180,
+        "segment_id": "ligne-2:172-180",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:inbound"
+        ]
+      },
+      {
+        "source": 180,
+        "target": 175,
+        "segment_id": "ligne-2:175-180",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:inbound"
+        ]
+      },
+      {
+        "source": 175,
+        "target": 165,
+        "segment_id": "ligne-2:165-175",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:inbound"
+        ]
+      },
+      {
+        "source": 165,
+        "target": 170,
+        "segment_id": "ligne-2:165-170",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:inbound"
+        ]
+      },
+      {
+        "source": 170,
+        "target": 176,
+        "segment_id": "ligne-2:170-176",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:inbound"
+        ]
+      },
+      {
+        "source": 176,
+        "target": 164,
+        "segment_id": "ligne-2:164-176",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:inbound"
+        ]
+      },
+      {
+        "source": 164,
+        "target": 174,
+        "segment_id": "ligne-2:164-174",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:inbound"
+        ]
+      },
+      {
+        "source": 174,
+        "target": 167,
+        "segment_id": "ligne-2:167-174",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:inbound"
+        ]
+      },
+      {
+        "source": 167,
+        "target": 185,
+        "segment_id": "ligne-2:167-185",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:inbound"
+        ]
+      },
+      {
+        "source": 185,
+        "target": 173,
+        "segment_id": "ligne-2:173-185",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:inbound"
+        ]
+      },
+      {
+        "source": 173,
+        "target": 177,
+        "segment_id": "ligne-2:173-177",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:inbound"
+        ]
+      },
+      {
+        "source": 177,
+        "target": 183,
+        "segment_id": "ligne-2:177-183",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:inbound"
+        ]
+      },
+      {
+        "source": 183,
+        "target": 182,
+        "segment_id": "ligne-2:182-183",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:inbound"
+        ]
+      },
+      {
+        "source": 182,
+        "target": 259,
+        "segment_id": "ligne-2:182-259",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:inbound"
+        ]
+      },
+      {
+        "source": 259,
+        "target": 163,
+        "segment_id": "ligne-2:163-259",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:inbound"
+        ]
+      },
+      {
+        "source": 163,
+        "target": 169,
+        "segment_id": "ligne-2:163-169",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-2:inbound"
+        ]
+      }
+    ],
+    "station_count": 25
+  },
+  {
+    "color": "#9B9842",
+    "name": "Ligne 3",
+    "number": "3",
+    "route_name": "Pont de Levallois - Bécon → Gallieni",
+    "id": "ligne-3",
+    "mode": "metro",
+    "topology_status": "reviewed",
+    "topology_date": "2026-11-05",
+    "sources": [
+      "https://www.bonjour-ratp.fr/lignes-metro/ligne-3/",
+      "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/metro.pdf"
+    ],
+    "topology": "linear",
+    "routes": [
+      {
+        "id": "ligne-3:outbound",
+        "origin": 228,
+        "destination": 230,
+        "station_ids": [
+          228,
+          221,
+          225,
+          223,
+          217,
+          227,
+          238,
+          173,
+          233,
+          229,
+          239,
+          236,
+          224,
+          234,
+          218,
+          220,
+          226,
+          237,
+          219,
+          232,
+          235,
+          168,
+          231,
+          222,
+          230
+        ]
+      },
+      {
+        "id": "ligne-3:inbound",
+        "origin": 230,
+        "destination": 228,
+        "station_ids": [
+          230,
+          222,
+          231,
+          168,
+          235,
+          232,
+          219,
+          237,
+          226,
+          220,
+          218,
+          234,
+          224,
+          236,
+          239,
+          229,
+          233,
+          173,
+          238,
+          227,
+          217,
+          223,
+          225,
+          221,
+          228
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "source": 228,
+        "target": 221,
+        "segment_id": "ligne-3:221-228",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:outbound"
+        ]
+      },
+      {
+        "source": 221,
+        "target": 225,
+        "segment_id": "ligne-3:221-225",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:outbound"
+        ]
+      },
+      {
+        "source": 225,
+        "target": 223,
+        "segment_id": "ligne-3:223-225",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:outbound"
+        ]
+      },
+      {
+        "source": 223,
+        "target": 217,
+        "segment_id": "ligne-3:217-223",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:outbound"
+        ]
+      },
+      {
+        "source": 217,
+        "target": 227,
+        "segment_id": "ligne-3:217-227",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:outbound"
+        ]
+      },
+      {
+        "source": 227,
+        "target": 238,
+        "segment_id": "ligne-3:227-238",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:outbound"
+        ]
+      },
+      {
+        "source": 238,
+        "target": 173,
+        "segment_id": "ligne-3:173-238",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:outbound"
+        ]
+      },
+      {
+        "source": 173,
+        "target": 233,
+        "segment_id": "ligne-3:173-233",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:outbound"
+        ]
+      },
+      {
+        "source": 233,
+        "target": 229,
+        "segment_id": "ligne-3:229-233",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:outbound"
+        ]
+      },
+      {
+        "source": 229,
+        "target": 239,
+        "segment_id": "ligne-3:229-239",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:outbound"
+        ]
+      },
+      {
+        "source": 239,
+        "target": 236,
+        "segment_id": "ligne-3:236-239",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:outbound"
+        ]
+      },
+      {
+        "source": 236,
+        "target": 224,
+        "segment_id": "ligne-3:224-236",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:outbound"
+        ]
+      },
+      {
+        "source": 224,
+        "target": 234,
+        "segment_id": "ligne-3:224-234",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:outbound"
+        ]
+      },
+      {
+        "source": 234,
+        "target": 218,
+        "segment_id": "ligne-3:218-234",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:outbound"
+        ]
+      },
+      {
+        "source": 218,
+        "target": 220,
+        "segment_id": "ligne-3:218-220",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:outbound"
+        ]
+      },
+      {
+        "source": 220,
+        "target": 226,
+        "segment_id": "ligne-3:220-226",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:outbound"
+        ]
+      },
+      {
+        "source": 226,
+        "target": 237,
+        "segment_id": "ligne-3:226-237",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:outbound"
+        ]
+      },
+      {
+        "source": 237,
+        "target": 219,
+        "segment_id": "ligne-3:219-237",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:outbound"
+        ]
+      },
+      {
+        "source": 219,
+        "target": 232,
+        "segment_id": "ligne-3:219-232",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:outbound"
+        ]
+      },
+      {
+        "source": 232,
+        "target": 235,
+        "segment_id": "ligne-3:232-235",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:outbound"
+        ]
+      },
+      {
+        "source": 235,
+        "target": 168,
+        "segment_id": "ligne-3:168-235",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:outbound"
+        ]
+      },
+      {
+        "source": 168,
+        "target": 231,
+        "segment_id": "ligne-3:168-231",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:outbound"
+        ]
+      },
+      {
+        "source": 231,
+        "target": 222,
+        "segment_id": "ligne-3:222-231",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:outbound"
+        ]
+      },
+      {
+        "source": 222,
+        "target": 230,
+        "segment_id": "ligne-3:222-230",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:outbound"
+        ]
+      },
+      {
+        "source": 230,
+        "target": 222,
+        "segment_id": "ligne-3:222-230",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:inbound"
+        ]
+      },
+      {
+        "source": 222,
+        "target": 231,
+        "segment_id": "ligne-3:222-231",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:inbound"
+        ]
+      },
+      {
+        "source": 231,
+        "target": 168,
+        "segment_id": "ligne-3:168-231",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:inbound"
+        ]
+      },
+      {
+        "source": 168,
+        "target": 235,
+        "segment_id": "ligne-3:168-235",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:inbound"
+        ]
+      },
+      {
+        "source": 235,
+        "target": 232,
+        "segment_id": "ligne-3:232-235",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:inbound"
+        ]
+      },
+      {
+        "source": 232,
+        "target": 219,
+        "segment_id": "ligne-3:219-232",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:inbound"
+        ]
+      },
+      {
+        "source": 219,
+        "target": 237,
+        "segment_id": "ligne-3:219-237",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:inbound"
+        ]
+      },
+      {
+        "source": 237,
+        "target": 226,
+        "segment_id": "ligne-3:226-237",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:inbound"
+        ]
+      },
+      {
+        "source": 226,
+        "target": 220,
+        "segment_id": "ligne-3:220-226",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:inbound"
+        ]
+      },
+      {
+        "source": 220,
+        "target": 218,
+        "segment_id": "ligne-3:218-220",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:inbound"
+        ]
+      },
+      {
+        "source": 218,
+        "target": 234,
+        "segment_id": "ligne-3:218-234",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:inbound"
+        ]
+      },
+      {
+        "source": 234,
+        "target": 224,
+        "segment_id": "ligne-3:224-234",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:inbound"
+        ]
+      },
+      {
+        "source": 224,
+        "target": 236,
+        "segment_id": "ligne-3:224-236",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:inbound"
+        ]
+      },
+      {
+        "source": 236,
+        "target": 239,
+        "segment_id": "ligne-3:236-239",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:inbound"
+        ]
+      },
+      {
+        "source": 239,
+        "target": 229,
+        "segment_id": "ligne-3:229-239",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:inbound"
+        ]
+      },
+      {
+        "source": 229,
+        "target": 233,
+        "segment_id": "ligne-3:229-233",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:inbound"
+        ]
+      },
+      {
+        "source": 233,
+        "target": 173,
+        "segment_id": "ligne-3:173-233",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:inbound"
+        ]
+      },
+      {
+        "source": 173,
+        "target": 238,
+        "segment_id": "ligne-3:173-238",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:inbound"
+        ]
+      },
+      {
+        "source": 238,
+        "target": 227,
+        "segment_id": "ligne-3:227-238",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:inbound"
+        ]
+      },
+      {
+        "source": 227,
+        "target": 217,
+        "segment_id": "ligne-3:217-227",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:inbound"
+        ]
+      },
+      {
+        "source": 217,
+        "target": 223,
+        "segment_id": "ligne-3:217-223",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:inbound"
+        ]
+      },
+      {
+        "source": 223,
+        "target": 225,
+        "segment_id": "ligne-3:223-225",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:inbound"
+        ]
+      },
+      {
+        "source": 225,
+        "target": 221,
+        "segment_id": "ligne-3:221-225",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:inbound"
+        ]
+      },
+      {
+        "source": 221,
+        "target": 228,
+        "segment_id": "ligne-3:221-228",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3:inbound"
+        ]
+      }
+    ],
+    "station_count": 25
+  },
+  {
+    "color": "#8BD3DE",
+    "name": "Ligne 3 Bis",
+    "number": "3bis",
+    "route_name": "Gambetta → Porte des Lilas",
+    "id": "ligne-3-bis",
+    "mode": "metro",
+    "topology_status": "reviewed",
+    "topology_date": "2026-11-05",
+    "sources": [
+      "https://www.bonjour-ratp.fr/lignes-metro/ligne-3bis/",
+      "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/metro.pdf"
+    ],
+    "topology": "linear",
+    "routes": [
+      {
+        "id": "ligne-3-bis:outbound",
+        "origin": 231,
+        "destination": 267,
+        "station_ids": [
+          231,
+          241,
+          240,
+          267
+        ]
+      },
+      {
+        "id": "ligne-3-bis:inbound",
+        "origin": 267,
+        "destination": 231,
+        "station_ids": [
+          267,
+          240,
+          241,
+          231
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "source": 231,
+        "target": 241,
+        "segment_id": "ligne-3-bis:231-241",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3-bis:outbound"
+        ]
+      },
+      {
+        "source": 241,
+        "target": 240,
+        "segment_id": "ligne-3-bis:240-241",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3-bis:outbound"
+        ]
+      },
+      {
+        "source": 240,
+        "target": 267,
+        "segment_id": "ligne-3-bis:240-267",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3-bis:outbound"
+        ]
+      },
+      {
+        "source": 267,
+        "target": 240,
+        "segment_id": "ligne-3-bis:240-267",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3-bis:inbound"
+        ]
+      },
+      {
+        "source": 240,
+        "target": 241,
+        "segment_id": "ligne-3-bis:240-241",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3-bis:inbound"
+        ]
+      },
+      {
+        "source": 241,
+        "target": 231,
+        "segment_id": "ligne-3-bis:231-241",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-3-bis:inbound"
+        ]
+      }
+    ],
+    "station_count": 4
+  },
+  {
+    "color": "#B94D9A",
+    "name": "Ligne 4",
+    "number": "4",
+    "route_name": "Porte de Clignancourt → Bagneux - Lucie Aubrac",
+    "id": "ligne-4",
+    "mode": "metro",
+    "topology_status": "reviewed",
+    "topology_date": "2026-11-05",
+    "sources": [
+      "https://www.bonjour-ratp.fr/lignes-metro/ligne-4/",
+      "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/metro.pdf"
+    ],
+    "topology": "linear",
+    "routes": [
+      {
+        "id": "ligne-4:outbound",
+        "origin": 202,
+        "destination": 439,
+        "station_ids": [
+          202,
+          268,
+          191,
+          193,
+          170,
+          198,
+          190,
+          195,
+          187,
+          220,
+          192,
+          199,
+          257,
+          270,
+          194,
+          200,
+          189,
+          272,
+          186,
+          188,
+          269,
+          203,
+          201,
+          196,
+          197,
+          271,
+          204,
+          440,
+          439
+        ]
+      },
+      {
+        "id": "ligne-4:inbound",
+        "origin": 439,
+        "destination": 202,
+        "station_ids": [
+          439,
+          440,
+          204,
+          271,
+          197,
+          196,
+          201,
+          203,
+          269,
+          188,
+          186,
+          272,
+          189,
+          200,
+          194,
+          270,
+          257,
+          199,
+          192,
+          220,
+          187,
+          195,
+          190,
+          198,
+          170,
+          193,
+          191,
+          268,
+          202
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "source": 202,
+        "target": 268,
+        "segment_id": "ligne-4:202-268",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 268,
+        "target": 191,
+        "segment_id": "ligne-4:191-268",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 191,
+        "target": 193,
+        "segment_id": "ligne-4:191-193",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 193,
+        "target": 170,
+        "segment_id": "ligne-4:170-193",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 170,
+        "target": 198,
+        "segment_id": "ligne-4:170-198",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 198,
+        "target": 190,
+        "segment_id": "ligne-4:190-198",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 190,
+        "target": 195,
+        "segment_id": "ligne-4:190-195",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 195,
+        "target": 187,
+        "segment_id": "ligne-4:187-195",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 187,
+        "target": 220,
+        "segment_id": "ligne-4:187-220",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 220,
+        "target": 192,
+        "segment_id": "ligne-4:192-220",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 192,
+        "target": 199,
+        "segment_id": "ligne-4:192-199",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 199,
+        "target": 257,
+        "segment_id": "ligne-4:199-257",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 257,
+        "target": 270,
+        "segment_id": "ligne-4:257-270",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 270,
+        "target": 194,
+        "segment_id": "ligne-4:194-270",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 194,
+        "target": 200,
+        "segment_id": "ligne-4:194-200",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 200,
+        "target": 189,
+        "segment_id": "ligne-4:189-200",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 189,
+        "target": 272,
+        "segment_id": "ligne-4:189-272",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 272,
+        "target": 186,
+        "segment_id": "ligne-4:186-272",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 186,
+        "target": 188,
+        "segment_id": "ligne-4:186-188",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 188,
+        "target": 269,
+        "segment_id": "ligne-4:188-269",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 269,
+        "target": 203,
+        "segment_id": "ligne-4:203-269",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 203,
+        "target": 201,
+        "segment_id": "ligne-4:201-203",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 201,
+        "target": 196,
+        "segment_id": "ligne-4:196-201",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 196,
+        "target": 197,
+        "segment_id": "ligne-4:196-197",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 197,
+        "target": 271,
+        "segment_id": "ligne-4:197-271",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 271,
+        "target": 204,
+        "segment_id": "ligne-4:204-271",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 204,
+        "target": 440,
+        "segment_id": "ligne-4:204-440",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 440,
+        "target": 439,
+        "segment_id": "ligne-4:439-440",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:outbound"
+        ]
+      },
+      {
+        "source": 439,
+        "target": 440,
+        "segment_id": "ligne-4:439-440",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 440,
+        "target": 204,
+        "segment_id": "ligne-4:204-440",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 204,
+        "target": 271,
+        "segment_id": "ligne-4:204-271",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 271,
+        "target": 197,
+        "segment_id": "ligne-4:197-271",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 197,
+        "target": 196,
+        "segment_id": "ligne-4:196-197",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 196,
+        "target": 201,
+        "segment_id": "ligne-4:196-201",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 201,
+        "target": 203,
+        "segment_id": "ligne-4:201-203",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 203,
+        "target": 269,
+        "segment_id": "ligne-4:203-269",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 269,
+        "target": 188,
+        "segment_id": "ligne-4:188-269",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 188,
+        "target": 186,
+        "segment_id": "ligne-4:186-188",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 186,
+        "target": 272,
+        "segment_id": "ligne-4:186-272",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 272,
+        "target": 189,
+        "segment_id": "ligne-4:189-272",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 189,
+        "target": 200,
+        "segment_id": "ligne-4:189-200",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 200,
+        "target": 194,
+        "segment_id": "ligne-4:194-200",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 194,
+        "target": 270,
+        "segment_id": "ligne-4:194-270",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 270,
+        "target": 257,
+        "segment_id": "ligne-4:257-270",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 257,
+        "target": 199,
+        "segment_id": "ligne-4:199-257",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 199,
+        "target": 192,
+        "segment_id": "ligne-4:192-199",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 192,
+        "target": 220,
+        "segment_id": "ligne-4:192-220",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 220,
+        "target": 187,
+        "segment_id": "ligne-4:187-220",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 187,
+        "target": 195,
+        "segment_id": "ligne-4:187-195",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 195,
+        "target": 190,
+        "segment_id": "ligne-4:190-195",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 190,
+        "target": 198,
+        "segment_id": "ligne-4:190-198",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 198,
+        "target": 170,
+        "segment_id": "ligne-4:170-198",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 170,
+        "target": 193,
+        "segment_id": "ligne-4:170-193",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 193,
+        "target": 191,
+        "segment_id": "ligne-4:191-193",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 191,
+        "target": 268,
+        "segment_id": "ligne-4:191-268",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      },
+      {
+        "source": 268,
+        "target": 202,
+        "segment_id": "ligne-4:202-268",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-4:inbound"
+        ]
+      }
+    ],
+    "station_count": 29
+  },
+  {
+    "color": "#F58F53",
+    "name": "Ligne 5",
+    "number": "5",
+    "route_name": "Bobigny - Pablo Picasso → Place d'Italie",
+    "id": "ligne-5",
+    "mode": "metro",
+    "topology_status": "reviewed",
+    "topology_date": "2026-11-05",
+    "sources": [
+      "https://www.bonjour-ratp.fr/lignes-metro/ligne-5/",
+      "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/metro.pdf"
+    ],
+    "topology": "linear",
+    "routes": [
+      {
+        "id": "ligne-5:outbound",
+        "origin": 206,
+        "destination": 205,
+        "station_ids": [
+          206,
+          212,
+          208,
+          216,
+          207,
+          274,
+          211,
+          180,
+          175,
+          198,
+          190,
+          277,
+          219,
+          210,
+          215,
+          213,
+          244,
+          276,
+          275,
+          209,
+          214,
+          205
+        ]
+      },
+      {
+        "id": "ligne-5:inbound",
+        "origin": 205,
+        "destination": 206,
+        "station_ids": [
+          205,
+          214,
+          209,
+          275,
+          276,
+          244,
+          213,
+          215,
+          210,
+          219,
+          277,
+          190,
+          198,
+          175,
+          180,
+          211,
+          274,
+          207,
+          216,
+          208,
+          212,
+          206
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "source": 206,
+        "target": 212,
+        "segment_id": "ligne-5:206-212",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:outbound"
+        ]
+      },
+      {
+        "source": 212,
+        "target": 208,
+        "segment_id": "ligne-5:208-212",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:outbound"
+        ]
+      },
+      {
+        "source": 208,
+        "target": 216,
+        "segment_id": "ligne-5:208-216",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:outbound"
+        ]
+      },
+      {
+        "source": 216,
+        "target": 207,
+        "segment_id": "ligne-5:207-216",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:outbound"
+        ]
+      },
+      {
+        "source": 207,
+        "target": 274,
+        "segment_id": "ligne-5:207-274",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:outbound"
+        ]
+      },
+      {
+        "source": 274,
+        "target": 211,
+        "segment_id": "ligne-5:211-274",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:outbound"
+        ]
+      },
+      {
+        "source": 211,
+        "target": 180,
+        "segment_id": "ligne-5:180-211",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:outbound"
+        ]
+      },
+      {
+        "source": 180,
+        "target": 175,
+        "segment_id": "ligne-5:175-180",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:outbound"
+        ]
+      },
+      {
+        "source": 175,
+        "target": 198,
+        "segment_id": "ligne-5:175-198",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:outbound"
+        ]
+      },
+      {
+        "source": 198,
+        "target": 190,
+        "segment_id": "ligne-5:190-198",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:outbound"
+        ]
+      },
+      {
+        "source": 190,
+        "target": 277,
+        "segment_id": "ligne-5:190-277",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:outbound"
+        ]
+      },
+      {
+        "source": 277,
+        "target": 219,
+        "segment_id": "ligne-5:219-277",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:outbound"
+        ]
+      },
+      {
+        "source": 219,
+        "target": 210,
+        "segment_id": "ligne-5:210-219",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:outbound"
+        ]
+      },
+      {
+        "source": 210,
+        "target": 215,
+        "segment_id": "ligne-5:210-215",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:outbound"
+        ]
+      },
+      {
+        "source": 215,
+        "target": 213,
+        "segment_id": "ligne-5:213-215",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:outbound"
+        ]
+      },
+      {
+        "source": 213,
+        "target": 244,
+        "segment_id": "ligne-5:213-244",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:outbound"
+        ]
+      },
+      {
+        "source": 244,
+        "target": 276,
+        "segment_id": "ligne-5:244-276",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:outbound"
+        ]
+      },
+      {
+        "source": 276,
+        "target": 275,
+        "segment_id": "ligne-5:275-276",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:outbound"
+        ]
+      },
+      {
+        "source": 275,
+        "target": 209,
+        "segment_id": "ligne-5:209-275",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:outbound"
+        ]
+      },
+      {
+        "source": 209,
+        "target": 214,
+        "segment_id": "ligne-5:209-214",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:outbound"
+        ]
+      },
+      {
+        "source": 214,
+        "target": 205,
+        "segment_id": "ligne-5:205-214",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:outbound"
+        ]
+      },
+      {
+        "source": 205,
+        "target": 214,
+        "segment_id": "ligne-5:205-214",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:inbound"
+        ]
+      },
+      {
+        "source": 214,
+        "target": 209,
+        "segment_id": "ligne-5:209-214",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:inbound"
+        ]
+      },
+      {
+        "source": 209,
+        "target": 275,
+        "segment_id": "ligne-5:209-275",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:inbound"
+        ]
+      },
+      {
+        "source": 275,
+        "target": 276,
+        "segment_id": "ligne-5:275-276",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:inbound"
+        ]
+      },
+      {
+        "source": 276,
+        "target": 244,
+        "segment_id": "ligne-5:244-276",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:inbound"
+        ]
+      },
+      {
+        "source": 244,
+        "target": 213,
+        "segment_id": "ligne-5:213-244",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:inbound"
+        ]
+      },
+      {
+        "source": 213,
+        "target": 215,
+        "segment_id": "ligne-5:213-215",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:inbound"
+        ]
+      },
+      {
+        "source": 215,
+        "target": 210,
+        "segment_id": "ligne-5:210-215",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:inbound"
+        ]
+      },
+      {
+        "source": 210,
+        "target": 219,
+        "segment_id": "ligne-5:210-219",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:inbound"
+        ]
+      },
+      {
+        "source": 219,
+        "target": 277,
+        "segment_id": "ligne-5:219-277",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:inbound"
+        ]
+      },
+      {
+        "source": 277,
+        "target": 190,
+        "segment_id": "ligne-5:190-277",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:inbound"
+        ]
+      },
+      {
+        "source": 190,
+        "target": 198,
+        "segment_id": "ligne-5:190-198",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:inbound"
+        ]
+      },
+      {
+        "source": 198,
+        "target": 175,
+        "segment_id": "ligne-5:175-198",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:inbound"
+        ]
+      },
+      {
+        "source": 175,
+        "target": 180,
+        "segment_id": "ligne-5:175-180",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:inbound"
+        ]
+      },
+      {
+        "source": 180,
+        "target": 211,
+        "segment_id": "ligne-5:180-211",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:inbound"
+        ]
+      },
+      {
+        "source": 211,
+        "target": 274,
+        "segment_id": "ligne-5:211-274",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:inbound"
+        ]
+      },
+      {
+        "source": 274,
+        "target": 207,
+        "segment_id": "ligne-5:207-274",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:inbound"
+        ]
+      },
+      {
+        "source": 207,
+        "target": 216,
+        "segment_id": "ligne-5:207-216",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:inbound"
+        ]
+      },
+      {
+        "source": 216,
+        "target": 208,
+        "segment_id": "ligne-5:208-216",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:inbound"
+        ]
+      },
+      {
+        "source": 208,
+        "target": 212,
+        "segment_id": "ligne-5:208-212",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:inbound"
+        ]
+      },
+      {
+        "source": 212,
+        "target": 206,
+        "segment_id": "ligne-5:206-212",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-5:inbound"
+        ]
+      }
+    ],
+    "station_count": 22
+  },
+  {
+    "color": "#7AC597",
+    "name": "Ligne 6",
+    "number": "6",
+    "route_name": "Charles de Gaulle - Étoile → Nation",
+    "id": "ligne-6",
+    "mode": "metro",
+    "topology_status": "reviewed",
+    "topology_date": "2026-11-05",
+    "sources": [
+      "https://www.bonjour-ratp.fr/lignes-metro/ligne-6/",
+      "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/metro.pdf"
+    ],
+    "topology": "linear",
+    "routes": [
+      {
+        "id": "ligne-6:outbound",
+        "origin": 259,
+        "destination": 242,
+        "station_ids": [
+          259,
+          281,
+          298,
+          293,
+          290,
+          282,
+          284,
+          288,
+          285,
+          278,
+          291,
+          188,
+          289,
+          203,
+          201,
+          294,
+          287,
+          297,
+          205,
+          286,
+          292,
+          295,
+          280,
+          283,
+          296,
+          279,
+          273,
+          242
+        ]
+      },
+      {
+        "id": "ligne-6:inbound",
+        "origin": 242,
+        "destination": 259,
+        "station_ids": [
+          242,
+          273,
+          279,
+          296,
+          283,
+          280,
+          295,
+          292,
+          286,
+          205,
+          297,
+          287,
+          294,
+          201,
+          203,
+          289,
+          188,
+          291,
+          278,
+          285,
+          288,
+          284,
+          282,
+          290,
+          293,
+          298,
+          281,
+          259
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "source": 259,
+        "target": 281,
+        "segment_id": "ligne-6:259-281",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 281,
+        "target": 298,
+        "segment_id": "ligne-6:281-298",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 298,
+        "target": 293,
+        "segment_id": "ligne-6:293-298",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 293,
+        "target": 290,
+        "segment_id": "ligne-6:290-293",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 290,
+        "target": 282,
+        "segment_id": "ligne-6:282-290",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 282,
+        "target": 284,
+        "segment_id": "ligne-6:282-284",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 284,
+        "target": 288,
+        "segment_id": "ligne-6:284-288",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 288,
+        "target": 285,
+        "segment_id": "ligne-6:285-288",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 285,
+        "target": 278,
+        "segment_id": "ligne-6:278-285",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 278,
+        "target": 291,
+        "segment_id": "ligne-6:278-291",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 291,
+        "target": 188,
+        "segment_id": "ligne-6:188-291",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 188,
+        "target": 289,
+        "segment_id": "ligne-6:188-289",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 289,
+        "target": 203,
+        "segment_id": "ligne-6:203-289",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 203,
+        "target": 201,
+        "segment_id": "ligne-6:201-203",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 201,
+        "target": 294,
+        "segment_id": "ligne-6:201-294",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 294,
+        "target": 287,
+        "segment_id": "ligne-6:287-294",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 287,
+        "target": 297,
+        "segment_id": "ligne-6:287-297",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 297,
+        "target": 205,
+        "segment_id": "ligne-6:205-297",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 205,
+        "target": 286,
+        "segment_id": "ligne-6:205-286",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 286,
+        "target": 292,
+        "segment_id": "ligne-6:286-292",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 292,
+        "target": 295,
+        "segment_id": "ligne-6:292-295",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 295,
+        "target": 280,
+        "segment_id": "ligne-6:280-295",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 280,
+        "target": 283,
+        "segment_id": "ligne-6:280-283",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 283,
+        "target": 296,
+        "segment_id": "ligne-6:283-296",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 296,
+        "target": 279,
+        "segment_id": "ligne-6:279-296",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 279,
+        "target": 273,
+        "segment_id": "ligne-6:273-279",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 273,
+        "target": 242,
+        "segment_id": "ligne-6:242-273",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:outbound"
+        ]
+      },
+      {
+        "source": 242,
+        "target": 273,
+        "segment_id": "ligne-6:242-273",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 273,
+        "target": 279,
+        "segment_id": "ligne-6:273-279",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 279,
+        "target": 296,
+        "segment_id": "ligne-6:279-296",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 296,
+        "target": 283,
+        "segment_id": "ligne-6:283-296",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 283,
+        "target": 280,
+        "segment_id": "ligne-6:280-283",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 280,
+        "target": 295,
+        "segment_id": "ligne-6:280-295",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 295,
+        "target": 292,
+        "segment_id": "ligne-6:292-295",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 292,
+        "target": 286,
+        "segment_id": "ligne-6:286-292",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 286,
+        "target": 205,
+        "segment_id": "ligne-6:205-286",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 205,
+        "target": 297,
+        "segment_id": "ligne-6:205-297",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 297,
+        "target": 287,
+        "segment_id": "ligne-6:287-297",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 287,
+        "target": 294,
+        "segment_id": "ligne-6:287-294",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 294,
+        "target": 201,
+        "segment_id": "ligne-6:201-294",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 201,
+        "target": 203,
+        "segment_id": "ligne-6:201-203",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 203,
+        "target": 289,
+        "segment_id": "ligne-6:203-289",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 289,
+        "target": 188,
+        "segment_id": "ligne-6:188-289",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 188,
+        "target": 291,
+        "segment_id": "ligne-6:188-291",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 291,
+        "target": 278,
+        "segment_id": "ligne-6:278-291",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 278,
+        "target": 285,
+        "segment_id": "ligne-6:278-285",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 285,
+        "target": 288,
+        "segment_id": "ligne-6:285-288",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 288,
+        "target": 284,
+        "segment_id": "ligne-6:284-288",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 284,
+        "target": 282,
+        "segment_id": "ligne-6:282-284",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 282,
+        "target": 290,
+        "segment_id": "ligne-6:282-290",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 290,
+        "target": 293,
+        "segment_id": "ligne-6:290-293",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 293,
+        "target": 298,
+        "segment_id": "ligne-6:293-298",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 298,
+        "target": 281,
+        "segment_id": "ligne-6:281-298",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      },
+      {
+        "source": 281,
+        "target": 259,
+        "segment_id": "ligne-6:259-281",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-6:inbound"
+        ]
+      }
+    ],
+    "station_count": 28
+  },
+  {
+    "color": "#7AC597",
+    "name": "Ligne 7 Bis",
+    "number": "7bis",
+    "route_name": "Louis Blanc → Louis Blanc",
+    "id": "ligne-7-bis",
+    "mode": "metro",
+    "topology_status": "reviewed",
+    "topology_date": "2026-11-05",
+    "sources": [
+      "https://www.bonjour-ratp.fr/lignes-metro/ligne-7bis/",
+      "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/metro.pdf",
+      "https://www.ratp.fr/decouvrir/patrimoine/histoire-station-danube"
+    ],
+    "topology": "one_way_loop",
+    "routes": [
+      {
+        "id": "ligne-7-bis:round-trip",
+        "origin": 309,
+        "destination": 309,
+        "station_ids": [
+          309,
+          180,
+          331,
+          335,
+          333,
+          336,
+          334,
+          332,
+          333,
+          335,
+          331,
+          180,
+          309
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "source": 309,
+        "target": 180,
+        "segment_id": "ligne-7-bis:180-309",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7-bis:round-trip"
+        ]
+      },
+      {
+        "source": 180,
+        "target": 331,
+        "segment_id": "ligne-7-bis:180-331",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7-bis:round-trip"
+        ]
+      },
+      {
+        "source": 331,
+        "target": 335,
+        "segment_id": "ligne-7-bis:331-335",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7-bis:round-trip"
+        ]
+      },
+      {
+        "source": 335,
+        "target": 333,
+        "segment_id": "ligne-7-bis:333-335",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7-bis:round-trip"
+        ]
+      },
+      {
+        "source": 333,
+        "target": 336,
+        "segment_id": "ligne-7-bis:333-336",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7-bis:round-trip"
+        ]
+      },
+      {
+        "source": 336,
+        "target": 334,
+        "segment_id": "ligne-7-bis:334-336",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7-bis:round-trip"
+        ]
+      },
+      {
+        "source": 334,
+        "target": 332,
+        "segment_id": "ligne-7-bis:332-334",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7-bis:round-trip"
+        ]
+      },
+      {
+        "source": 332,
+        "target": 333,
+        "segment_id": "ligne-7-bis:332-333",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7-bis:round-trip"
+        ]
+      },
+      {
+        "source": 333,
+        "target": 335,
+        "segment_id": "ligne-7-bis:333-335",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7-bis:round-trip"
+        ]
+      },
+      {
+        "source": 335,
+        "target": 331,
+        "segment_id": "ligne-7-bis:331-335",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7-bis:round-trip"
+        ]
+      },
+      {
+        "source": 331,
+        "target": 180,
+        "segment_id": "ligne-7-bis:180-331",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7-bis:round-trip"
+        ]
+      },
+      {
+        "source": 180,
+        "target": 309,
+        "segment_id": "ligne-7-bis:180-309",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7-bis:round-trip"
+        ]
+      }
+    ],
+    "station_count": 8
+  },
+  {
+    "color": "#F39FB2",
+    "name": "Ligne 7",
+    "number": "7",
+    "route_name": "La Courneuve - 8 Mai 1945 → Mairie d'Ivry / La Courneuve - 8 Mai 1945 → Villejuif - Louis Aragon",
+    "id": "ligne-7",
+    "mode": "metro",
+    "topology_status": "reviewed",
+    "topology_date": "2026-11-05",
+    "sources": [
+      "https://www.bonjour-ratp.fr/lignes-metro/ligne-7/",
+      "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/metro.pdf"
+    ],
+    "topology": "branched",
+    "branch_point": 319,
+    "routes": [
+      {
+        "id": "ligne-7:branch-1-outbound",
+        "origin": 302,
+        "destination": 316,
+        "station_ids": [
+          302,
+          318,
+          315,
+          324,
+          330,
+          329,
+          311,
+          175,
+          309,
+          305,
+          190,
+          303,
+          308,
+          325,
+          321,
+          236,
+          320,
+          252,
+          312,
+          257,
+          314,
+          326,
+          307,
+          327,
+          310,
+          322,
+          205,
+          323,
+          319,
+          313,
+          328,
+          304,
+          301,
+          316
+        ]
+      },
+      {
+        "id": "ligne-7:branch-1-inbound",
+        "origin": 316,
+        "destination": 302,
+        "station_ids": [
+          316,
+          301,
+          304,
+          328,
+          313,
+          319,
+          323,
+          205,
+          322,
+          310,
+          327,
+          307,
+          326,
+          314,
+          257,
+          312,
+          252,
+          320,
+          236,
+          321,
+          325,
+          308,
+          303,
+          190,
+          305,
+          309,
+          175,
+          311,
+          329,
+          330,
+          324,
+          315,
+          318,
+          302
+        ]
+      },
+      {
+        "id": "ligne-7:branch-2-outbound",
+        "origin": 302,
+        "destination": 300,
+        "station_ids": [
+          302,
+          318,
+          315,
+          324,
+          330,
+          329,
+          311,
+          175,
+          309,
+          305,
+          190,
+          303,
+          308,
+          325,
+          321,
+          236,
+          320,
+          252,
+          312,
+          257,
+          314,
+          326,
+          307,
+          327,
+          310,
+          322,
+          205,
+          323,
+          319,
+          306,
+          317,
+          299,
+          300
+        ]
+      },
+      {
+        "id": "ligne-7:branch-2-inbound",
+        "origin": 300,
+        "destination": 302,
+        "station_ids": [
+          300,
+          299,
+          317,
+          306,
+          319,
+          323,
+          205,
+          322,
+          310,
+          327,
+          307,
+          326,
+          314,
+          257,
+          312,
+          252,
+          320,
+          236,
+          321,
+          325,
+          308,
+          303,
+          190,
+          305,
+          309,
+          175,
+          311,
+          329,
+          330,
+          324,
+          315,
+          318,
+          302
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "source": 302,
+        "target": 318,
+        "segment_id": "ligne-7:302-318",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 318,
+        "target": 315,
+        "segment_id": "ligne-7:315-318",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 315,
+        "target": 324,
+        "segment_id": "ligne-7:315-324",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 324,
+        "target": 330,
+        "segment_id": "ligne-7:324-330",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 330,
+        "target": 329,
+        "segment_id": "ligne-7:329-330",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 329,
+        "target": 311,
+        "segment_id": "ligne-7:311-329",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 311,
+        "target": 175,
+        "segment_id": "ligne-7:175-311",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 175,
+        "target": 309,
+        "segment_id": "ligne-7:175-309",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 309,
+        "target": 305,
+        "segment_id": "ligne-7:305-309",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 305,
+        "target": 190,
+        "segment_id": "ligne-7:190-305",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 190,
+        "target": 303,
+        "segment_id": "ligne-7:190-303",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 303,
+        "target": 308,
+        "segment_id": "ligne-7:303-308",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 308,
+        "target": 325,
+        "segment_id": "ligne-7:308-325",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 325,
+        "target": 321,
+        "segment_id": "ligne-7:321-325",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 321,
+        "target": 236,
+        "segment_id": "ligne-7:236-321",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 236,
+        "target": 320,
+        "segment_id": "ligne-7:236-320",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 320,
+        "target": 252,
+        "segment_id": "ligne-7:252-320",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 252,
+        "target": 312,
+        "segment_id": "ligne-7:252-312",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 312,
+        "target": 257,
+        "segment_id": "ligne-7:257-312",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 257,
+        "target": 314,
+        "segment_id": "ligne-7:257-314",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 314,
+        "target": 326,
+        "segment_id": "ligne-7:314-326",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 326,
+        "target": 307,
+        "segment_id": "ligne-7:307-326",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 307,
+        "target": 327,
+        "segment_id": "ligne-7:307-327",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 327,
+        "target": 310,
+        "segment_id": "ligne-7:310-327",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 310,
+        "target": 322,
+        "segment_id": "ligne-7:310-322",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 322,
+        "target": 205,
+        "segment_id": "ligne-7:205-322",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 205,
+        "target": 323,
+        "segment_id": "ligne-7:205-323",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 323,
+        "target": 319,
+        "segment_id": "ligne-7:319-323",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound",
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 319,
+        "target": 313,
+        "segment_id": "ligne-7:313-319",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound"
+        ]
+      },
+      {
+        "source": 313,
+        "target": 328,
+        "segment_id": "ligne-7:313-328",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound"
+        ]
+      },
+      {
+        "source": 328,
+        "target": 304,
+        "segment_id": "ligne-7:304-328",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound"
+        ]
+      },
+      {
+        "source": 304,
+        "target": 301,
+        "segment_id": "ligne-7:301-304",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound"
+        ]
+      },
+      {
+        "source": 301,
+        "target": 316,
+        "segment_id": "ligne-7:301-316",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-outbound"
+        ]
+      },
+      {
+        "source": 316,
+        "target": 301,
+        "segment_id": "ligne-7:301-316",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound"
+        ]
+      },
+      {
+        "source": 301,
+        "target": 304,
+        "segment_id": "ligne-7:301-304",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound"
+        ]
+      },
+      {
+        "source": 304,
+        "target": 328,
+        "segment_id": "ligne-7:304-328",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound"
+        ]
+      },
+      {
+        "source": 328,
+        "target": 313,
+        "segment_id": "ligne-7:313-328",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound"
+        ]
+      },
+      {
+        "source": 313,
+        "target": 319,
+        "segment_id": "ligne-7:313-319",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound"
+        ]
+      },
+      {
+        "source": 319,
+        "target": 323,
+        "segment_id": "ligne-7:319-323",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 323,
+        "target": 205,
+        "segment_id": "ligne-7:205-323",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 205,
+        "target": 322,
+        "segment_id": "ligne-7:205-322",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 322,
+        "target": 310,
+        "segment_id": "ligne-7:310-322",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 310,
+        "target": 327,
+        "segment_id": "ligne-7:310-327",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 327,
+        "target": 307,
+        "segment_id": "ligne-7:307-327",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 307,
+        "target": 326,
+        "segment_id": "ligne-7:307-326",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 326,
+        "target": 314,
+        "segment_id": "ligne-7:314-326",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 314,
+        "target": 257,
+        "segment_id": "ligne-7:257-314",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 257,
+        "target": 312,
+        "segment_id": "ligne-7:257-312",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 312,
+        "target": 252,
+        "segment_id": "ligne-7:252-312",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 252,
+        "target": 320,
+        "segment_id": "ligne-7:252-320",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 320,
+        "target": 236,
+        "segment_id": "ligne-7:236-320",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 236,
+        "target": 321,
+        "segment_id": "ligne-7:236-321",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 321,
+        "target": 325,
+        "segment_id": "ligne-7:321-325",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 325,
+        "target": 308,
+        "segment_id": "ligne-7:308-325",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 308,
+        "target": 303,
+        "segment_id": "ligne-7:303-308",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 303,
+        "target": 190,
+        "segment_id": "ligne-7:190-303",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 190,
+        "target": 305,
+        "segment_id": "ligne-7:190-305",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 305,
+        "target": 309,
+        "segment_id": "ligne-7:305-309",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 309,
+        "target": 175,
+        "segment_id": "ligne-7:175-309",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 175,
+        "target": 311,
+        "segment_id": "ligne-7:175-311",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 311,
+        "target": 329,
+        "segment_id": "ligne-7:311-329",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 329,
+        "target": 330,
+        "segment_id": "ligne-7:329-330",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 330,
+        "target": 324,
+        "segment_id": "ligne-7:324-330",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 324,
+        "target": 315,
+        "segment_id": "ligne-7:315-324",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 315,
+        "target": 318,
+        "segment_id": "ligne-7:315-318",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 318,
+        "target": 302,
+        "segment_id": "ligne-7:302-318",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-1-inbound",
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 319,
+        "target": 306,
+        "segment_id": "ligne-7:306-319",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 306,
+        "target": 317,
+        "segment_id": "ligne-7:306-317",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 317,
+        "target": 299,
+        "segment_id": "ligne-7:299-317",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 299,
+        "target": 300,
+        "segment_id": "ligne-7:299-300",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 300,
+        "target": 299,
+        "segment_id": "ligne-7:299-300",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 299,
+        "target": 317,
+        "segment_id": "ligne-7:299-317",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 317,
+        "target": 306,
+        "segment_id": "ligne-7:306-317",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 306,
+        "target": 319,
+        "segment_id": "ligne-7:306-319",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-7:branch-2-inbound"
+        ]
+      }
+    ],
+    "station_count": 38
+  },
+  {
+    "color": "#C4A4CC",
+    "name": "Ligne 8",
+    "number": "8",
+    "route_name": "Balard → Pointe du Lac",
+    "id": "ligne-8",
+    "mode": "metro",
+    "topology_status": "reviewed",
+    "topology_date": "2026-11-05",
+    "sources": [
+      "https://www.bonjour-ratp.fr/lignes-metro/ligne-8/",
+      "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/metro.pdf"
+    ],
+    "topology": "linear",
+    "routes": [
+      {
+        "id": "ligne-8:outbound",
+        "origin": 359,
+        "destination": 345,
+        "station_ids": [
+          359,
+          364,
+          363,
+          337,
+          342,
+          288,
+          344,
+          343,
+          358,
+          243,
+          365,
+          236,
+          352,
+          351,
+          350,
+          187,
+          219,
+          347,
+          346,
+          348,
+          244,
+          349,
+          338,
+          248,
+          339,
+          296,
+          341,
+          340,
+          353,
+          354,
+          356,
+          357,
+          355,
+          362,
+          360,
+          361,
+          366,
+          345
+        ]
+      },
+      {
+        "id": "ligne-8:inbound",
+        "origin": 345,
+        "destination": 359,
+        "station_ids": [
+          345,
+          366,
+          361,
+          360,
+          362,
+          355,
+          357,
+          356,
+          354,
+          353,
+          340,
+          341,
+          296,
+          339,
+          248,
+          338,
+          349,
+          244,
+          348,
+          346,
+          347,
+          219,
+          187,
+          350,
+          351,
+          352,
+          236,
+          365,
+          243,
+          358,
+          343,
+          344,
+          288,
+          342,
+          337,
+          363,
+          364,
+          359
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "source": 359,
+        "target": 364,
+        "segment_id": "ligne-8:359-364",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 364,
+        "target": 363,
+        "segment_id": "ligne-8:363-364",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 363,
+        "target": 337,
+        "segment_id": "ligne-8:337-363",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 337,
+        "target": 342,
+        "segment_id": "ligne-8:337-342",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 342,
+        "target": 288,
+        "segment_id": "ligne-8:288-342",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 288,
+        "target": 344,
+        "segment_id": "ligne-8:288-344",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 344,
+        "target": 343,
+        "segment_id": "ligne-8:343-344",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 343,
+        "target": 358,
+        "segment_id": "ligne-8:343-358",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 358,
+        "target": 243,
+        "segment_id": "ligne-8:243-358",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 243,
+        "target": 365,
+        "segment_id": "ligne-8:243-365",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 365,
+        "target": 236,
+        "segment_id": "ligne-8:236-365",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 236,
+        "target": 352,
+        "segment_id": "ligne-8:236-352",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 352,
+        "target": 351,
+        "segment_id": "ligne-8:351-352",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 351,
+        "target": 350,
+        "segment_id": "ligne-8:350-351",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 350,
+        "target": 187,
+        "segment_id": "ligne-8:187-350",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 187,
+        "target": 219,
+        "segment_id": "ligne-8:187-219",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 219,
+        "target": 347,
+        "segment_id": "ligne-8:219-347",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 347,
+        "target": 346,
+        "segment_id": "ligne-8:346-347",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 346,
+        "target": 348,
+        "segment_id": "ligne-8:346-348",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 348,
+        "target": 244,
+        "segment_id": "ligne-8:244-348",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 244,
+        "target": 349,
+        "segment_id": "ligne-8:244-349",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 349,
+        "target": 338,
+        "segment_id": "ligne-8:338-349",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 338,
+        "target": 248,
+        "segment_id": "ligne-8:248-338",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 248,
+        "target": 339,
+        "segment_id": "ligne-8:248-339",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 339,
+        "target": 296,
+        "segment_id": "ligne-8:296-339",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 296,
+        "target": 341,
+        "segment_id": "ligne-8:296-341",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 341,
+        "target": 340,
+        "segment_id": "ligne-8:340-341",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 340,
+        "target": 353,
+        "segment_id": "ligne-8:340-353",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 353,
+        "target": 354,
+        "segment_id": "ligne-8:353-354",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 354,
+        "target": 356,
+        "segment_id": "ligne-8:354-356",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 356,
+        "target": 357,
+        "segment_id": "ligne-8:356-357",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 357,
+        "target": 355,
+        "segment_id": "ligne-8:355-357",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 355,
+        "target": 362,
+        "segment_id": "ligne-8:355-362",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 362,
+        "target": 360,
+        "segment_id": "ligne-8:360-362",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 360,
+        "target": 361,
+        "segment_id": "ligne-8:360-361",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 361,
+        "target": 366,
+        "segment_id": "ligne-8:361-366",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 366,
+        "target": 345,
+        "segment_id": "ligne-8:345-366",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:outbound"
+        ]
+      },
+      {
+        "source": 345,
+        "target": 366,
+        "segment_id": "ligne-8:345-366",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 366,
+        "target": 361,
+        "segment_id": "ligne-8:361-366",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 361,
+        "target": 360,
+        "segment_id": "ligne-8:360-361",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 360,
+        "target": 362,
+        "segment_id": "ligne-8:360-362",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 362,
+        "target": 355,
+        "segment_id": "ligne-8:355-362",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 355,
+        "target": 357,
+        "segment_id": "ligne-8:355-357",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 357,
+        "target": 356,
+        "segment_id": "ligne-8:356-357",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 356,
+        "target": 354,
+        "segment_id": "ligne-8:354-356",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 354,
+        "target": 353,
+        "segment_id": "ligne-8:353-354",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 353,
+        "target": 340,
+        "segment_id": "ligne-8:340-353",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 340,
+        "target": 341,
+        "segment_id": "ligne-8:340-341",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 341,
+        "target": 296,
+        "segment_id": "ligne-8:296-341",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 296,
+        "target": 339,
+        "segment_id": "ligne-8:296-339",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 339,
+        "target": 248,
+        "segment_id": "ligne-8:248-339",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 248,
+        "target": 338,
+        "segment_id": "ligne-8:248-338",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 338,
+        "target": 349,
+        "segment_id": "ligne-8:338-349",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 349,
+        "target": 244,
+        "segment_id": "ligne-8:244-349",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 244,
+        "target": 348,
+        "segment_id": "ligne-8:244-348",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 348,
+        "target": 346,
+        "segment_id": "ligne-8:346-348",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 346,
+        "target": 347,
+        "segment_id": "ligne-8:346-347",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 347,
+        "target": 219,
+        "segment_id": "ligne-8:219-347",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 219,
+        "target": 187,
+        "segment_id": "ligne-8:187-219",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 187,
+        "target": 350,
+        "segment_id": "ligne-8:187-350",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 350,
+        "target": 351,
+        "segment_id": "ligne-8:350-351",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 351,
+        "target": 352,
+        "segment_id": "ligne-8:351-352",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 352,
+        "target": 236,
+        "segment_id": "ligne-8:236-352",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 236,
+        "target": 365,
+        "segment_id": "ligne-8:236-365",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 365,
+        "target": 243,
+        "segment_id": "ligne-8:243-365",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 243,
+        "target": 358,
+        "segment_id": "ligne-8:243-358",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 358,
+        "target": 343,
+        "segment_id": "ligne-8:343-358",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 343,
+        "target": 344,
+        "segment_id": "ligne-8:343-344",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 344,
+        "target": 288,
+        "segment_id": "ligne-8:288-344",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 288,
+        "target": 342,
+        "segment_id": "ligne-8:288-342",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 342,
+        "target": 337,
+        "segment_id": "ligne-8:337-342",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 337,
+        "target": 363,
+        "segment_id": "ligne-8:337-363",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 363,
+        "target": 364,
+        "segment_id": "ligne-8:363-364",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      },
+      {
+        "source": 364,
+        "target": 359,
+        "segment_id": "ligne-8:359-364",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-8:inbound"
+        ]
+      }
+    ],
+    "station_count": 38
+  },
+  {
+    "color": "#CEC83D",
+    "name": "Ligne 9",
+    "number": "9",
+    "route_name": "Pont de Sèvres → Mairie de Montreuil",
+    "id": "ligne-9",
+    "mode": "metro",
+    "topology_status": "reviewed",
+    "topology_date": "2026-11-05",
+    "sources": [
+      "https://www.bonjour-ratp.fr/lignes-metro/ligne-9/",
+      "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/metro.pdf"
+    ],
+    "topology": "linear",
+    "routes": [
+      {
+        "id": "ligne-9:outbound",
+        "origin": 373,
+        "destination": 379,
+        "station_ids": [
+          373,
+          367,
+          390,
+          382,
+          375,
+          381,
+          384,
+          378,
+          369,
+          374,
+          392,
+          293,
+          380,
+          371,
+          251,
+          368,
+          386,
+          388,
+          239,
+          321,
+          352,
+          351,
+          350,
+          187,
+          219,
+          210,
+          387,
+          376,
+          377,
+          391,
+          242,
+          370,
+          389,
+          385,
+          372,
+          383,
+          379
+        ]
+      },
+      {
+        "id": "ligne-9:inbound",
+        "origin": 379,
+        "destination": 373,
+        "station_ids": [
+          379,
+          383,
+          372,
+          385,
+          389,
+          370,
+          242,
+          391,
+          377,
+          376,
+          387,
+          210,
+          219,
+          187,
+          350,
+          351,
+          352,
+          321,
+          239,
+          388,
+          386,
+          368,
+          251,
+          371,
+          380,
+          293,
+          392,
+          374,
+          369,
+          378,
+          384,
+          381,
+          375,
+          382,
+          390,
+          367,
+          373
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "source": 373,
+        "target": 367,
+        "segment_id": "ligne-9:367-373",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 367,
+        "target": 390,
+        "segment_id": "ligne-9:367-390",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 390,
+        "target": 382,
+        "segment_id": "ligne-9:382-390",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 382,
+        "target": 375,
+        "segment_id": "ligne-9:375-382",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 375,
+        "target": 381,
+        "segment_id": "ligne-9:375-381",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 381,
+        "target": 384,
+        "segment_id": "ligne-9:381-384",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 384,
+        "target": 378,
+        "segment_id": "ligne-9:378-384",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 378,
+        "target": 369,
+        "segment_id": "ligne-9:369-378",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 369,
+        "target": 374,
+        "segment_id": "ligne-9:369-374",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 374,
+        "target": 392,
+        "segment_id": "ligne-9:374-392",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 392,
+        "target": 293,
+        "segment_id": "ligne-9:293-392",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 293,
+        "target": 380,
+        "segment_id": "ligne-9:293-380",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 380,
+        "target": 371,
+        "segment_id": "ligne-9:371-380",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 371,
+        "target": 251,
+        "segment_id": "ligne-9:251-371",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 251,
+        "target": 368,
+        "segment_id": "ligne-9:251-368",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 368,
+        "target": 386,
+        "segment_id": "ligne-9:368-386",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 386,
+        "target": 388,
+        "segment_id": "ligne-9:386-388",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 388,
+        "target": 239,
+        "segment_id": "ligne-9:239-388",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 239,
+        "target": 321,
+        "segment_id": "ligne-9:239-321",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 321,
+        "target": 352,
+        "segment_id": "ligne-9:321-352",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 352,
+        "target": 351,
+        "segment_id": "ligne-9:351-352",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 351,
+        "target": 350,
+        "segment_id": "ligne-9:350-351",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 350,
+        "target": 187,
+        "segment_id": "ligne-9:187-350",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 187,
+        "target": 219,
+        "segment_id": "ligne-9:187-219",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 219,
+        "target": 210,
+        "segment_id": "ligne-9:210-219",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 210,
+        "target": 387,
+        "segment_id": "ligne-9:210-387",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 387,
+        "target": 376,
+        "segment_id": "ligne-9:376-387",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 376,
+        "target": 377,
+        "segment_id": "ligne-9:376-377",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 377,
+        "target": 391,
+        "segment_id": "ligne-9:377-391",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 391,
+        "target": 242,
+        "segment_id": "ligne-9:242-391",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 242,
+        "target": 370,
+        "segment_id": "ligne-9:242-370",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 370,
+        "target": 389,
+        "segment_id": "ligne-9:370-389",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 389,
+        "target": 385,
+        "segment_id": "ligne-9:385-389",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 385,
+        "target": 372,
+        "segment_id": "ligne-9:372-385",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 372,
+        "target": 383,
+        "segment_id": "ligne-9:372-383",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 383,
+        "target": 379,
+        "segment_id": "ligne-9:379-383",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:outbound"
+        ]
+      },
+      {
+        "source": 379,
+        "target": 383,
+        "segment_id": "ligne-9:379-383",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 383,
+        "target": 372,
+        "segment_id": "ligne-9:372-383",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 372,
+        "target": 385,
+        "segment_id": "ligne-9:372-385",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 385,
+        "target": 389,
+        "segment_id": "ligne-9:385-389",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 389,
+        "target": 370,
+        "segment_id": "ligne-9:370-389",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 370,
+        "target": 242,
+        "segment_id": "ligne-9:242-370",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 242,
+        "target": 391,
+        "segment_id": "ligne-9:242-391",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 391,
+        "target": 377,
+        "segment_id": "ligne-9:377-391",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 377,
+        "target": 376,
+        "segment_id": "ligne-9:376-377",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 376,
+        "target": 387,
+        "segment_id": "ligne-9:376-387",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 387,
+        "target": 210,
+        "segment_id": "ligne-9:210-387",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 210,
+        "target": 219,
+        "segment_id": "ligne-9:210-219",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 219,
+        "target": 187,
+        "segment_id": "ligne-9:187-219",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 187,
+        "target": 350,
+        "segment_id": "ligne-9:187-350",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 350,
+        "target": 351,
+        "segment_id": "ligne-9:350-351",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 351,
+        "target": 352,
+        "segment_id": "ligne-9:351-352",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 352,
+        "target": 321,
+        "segment_id": "ligne-9:321-352",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 321,
+        "target": 239,
+        "segment_id": "ligne-9:239-321",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 239,
+        "target": 388,
+        "segment_id": "ligne-9:239-388",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 388,
+        "target": 386,
+        "segment_id": "ligne-9:386-388",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 386,
+        "target": 368,
+        "segment_id": "ligne-9:368-386",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 368,
+        "target": 251,
+        "segment_id": "ligne-9:251-368",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 251,
+        "target": 371,
+        "segment_id": "ligne-9:251-371",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 371,
+        "target": 380,
+        "segment_id": "ligne-9:371-380",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 380,
+        "target": 293,
+        "segment_id": "ligne-9:293-380",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 293,
+        "target": 392,
+        "segment_id": "ligne-9:293-392",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 392,
+        "target": 374,
+        "segment_id": "ligne-9:374-392",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 374,
+        "target": 369,
+        "segment_id": "ligne-9:369-374",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 369,
+        "target": 378,
+        "segment_id": "ligne-9:369-378",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 378,
+        "target": 384,
+        "segment_id": "ligne-9:378-384",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 384,
+        "target": 381,
+        "segment_id": "ligne-9:381-384",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 381,
+        "target": 375,
+        "segment_id": "ligne-9:375-381",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 375,
+        "target": 382,
+        "segment_id": "ligne-9:375-382",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 382,
+        "target": 390,
+        "segment_id": "ligne-9:382-390",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 390,
+        "target": 367,
+        "segment_id": "ligne-9:367-390",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      },
+      {
+        "source": 367,
+        "target": 373,
+        "segment_id": "ligne-9:367-373",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-9:inbound"
+        ]
+      }
+    ],
+    "station_count": 37
+  },
+  {
+    "color": "#DFAF47",
+    "name": "Ligne 10",
+    "number": "10",
+    "route_name": "Boulogne - Pont de Saint-Cloud → Gare d'Austerlitz / Gare d'Austerlitz → Boulogne - Pont de Saint-Cloud",
+    "id": "ligne-10",
+    "mode": "metro",
+    "topology_status": "reviewed",
+    "topology_date": "2026-11-05",
+    "sources": [
+      "https://www.bonjour-ratp.fr/lignes-metro/ligne-10/",
+      "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/metro.pdf",
+      "https://www.transilien.com/fr/page-lignes/metro-10"
+    ],
+    "topology": "direction_dependent",
+    "service_scope": "Regular end-to-end services; special early-morning Porte d’Auteuil departures excluded.",
+    "routes": [
+      {
+        "id": "ligne-10:towards-austerlitz",
+        "origin": 9,
+        "destination": 275,
+        "station_ids": [
+          9,
+          1,
+          381,
+          10,
+          4,
+          399,
+          8,
+          7,
+          288,
+          393,
+          2,
+          396,
+          395,
+          397,
+          200,
+          3,
+          394,
+          6,
+          307,
+          275
+        ]
+      },
+      {
+        "id": "ligne-10:towards-boulogne",
+        "origin": 275,
+        "destination": 9,
+        "station_ids": [
+          275,
+          307,
+          6,
+          394,
+          3,
+          200,
+          397,
+          395,
+          396,
+          2,
+          393,
+          288,
+          7,
+          8,
+          399,
+          398,
+          384,
+          5,
+          1,
+          9
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "source": 9,
+        "target": 1,
+        "segment_id": "ligne-10:1-9",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-austerlitz"
+        ]
+      },
+      {
+        "source": 1,
+        "target": 381,
+        "segment_id": "ligne-10:1-381",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-austerlitz"
+        ]
+      },
+      {
+        "source": 381,
+        "target": 10,
+        "segment_id": "ligne-10:10-381",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-austerlitz"
+        ]
+      },
+      {
+        "source": 10,
+        "target": 4,
+        "segment_id": "ligne-10:4-10",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-austerlitz"
+        ]
+      },
+      {
+        "source": 4,
+        "target": 399,
+        "segment_id": "ligne-10:4-399",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-austerlitz"
+        ]
+      },
+      {
+        "source": 399,
+        "target": 8,
+        "segment_id": "ligne-10:8-399",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-austerlitz"
+        ]
+      },
+      {
+        "source": 8,
+        "target": 7,
+        "segment_id": "ligne-10:7-8",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-austerlitz"
+        ]
+      },
+      {
+        "source": 7,
+        "target": 288,
+        "segment_id": "ligne-10:7-288",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-austerlitz"
+        ]
+      },
+      {
+        "source": 288,
+        "target": 393,
+        "segment_id": "ligne-10:288-393",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-austerlitz"
+        ]
+      },
+      {
+        "source": 393,
+        "target": 2,
+        "segment_id": "ligne-10:2-393",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-austerlitz"
+        ]
+      },
+      {
+        "source": 2,
+        "target": 396,
+        "segment_id": "ligne-10:2-396",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-austerlitz"
+        ]
+      },
+      {
+        "source": 396,
+        "target": 395,
+        "segment_id": "ligne-10:395-396",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-austerlitz"
+        ]
+      },
+      {
+        "source": 395,
+        "target": 397,
+        "segment_id": "ligne-10:395-397",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-austerlitz"
+        ]
+      },
+      {
+        "source": 397,
+        "target": 200,
+        "segment_id": "ligne-10:200-397",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-austerlitz"
+        ]
+      },
+      {
+        "source": 200,
+        "target": 3,
+        "segment_id": "ligne-10:3-200",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-austerlitz"
+        ]
+      },
+      {
+        "source": 3,
+        "target": 394,
+        "segment_id": "ligne-10:3-394",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-austerlitz"
+        ]
+      },
+      {
+        "source": 394,
+        "target": 6,
+        "segment_id": "ligne-10:6-394",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-austerlitz"
+        ]
+      },
+      {
+        "source": 6,
+        "target": 307,
+        "segment_id": "ligne-10:6-307",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-austerlitz"
+        ]
+      },
+      {
+        "source": 307,
+        "target": 275,
+        "segment_id": "ligne-10:275-307",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-austerlitz"
+        ]
+      },
+      {
+        "source": 275,
+        "target": 307,
+        "segment_id": "ligne-10:275-307",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-boulogne"
+        ]
+      },
+      {
+        "source": 307,
+        "target": 6,
+        "segment_id": "ligne-10:6-307",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-boulogne"
+        ]
+      },
+      {
+        "source": 6,
+        "target": 394,
+        "segment_id": "ligne-10:6-394",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-boulogne"
+        ]
+      },
+      {
+        "source": 394,
+        "target": 3,
+        "segment_id": "ligne-10:3-394",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-boulogne"
+        ]
+      },
+      {
+        "source": 3,
+        "target": 200,
+        "segment_id": "ligne-10:3-200",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-boulogne"
+        ]
+      },
+      {
+        "source": 200,
+        "target": 397,
+        "segment_id": "ligne-10:200-397",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-boulogne"
+        ]
+      },
+      {
+        "source": 397,
+        "target": 395,
+        "segment_id": "ligne-10:395-397",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-boulogne"
+        ]
+      },
+      {
+        "source": 395,
+        "target": 396,
+        "segment_id": "ligne-10:395-396",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-boulogne"
+        ]
+      },
+      {
+        "source": 396,
+        "target": 2,
+        "segment_id": "ligne-10:2-396",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-boulogne"
+        ]
+      },
+      {
+        "source": 2,
+        "target": 393,
+        "segment_id": "ligne-10:2-393",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-boulogne"
+        ]
+      },
+      {
+        "source": 393,
+        "target": 288,
+        "segment_id": "ligne-10:288-393",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-boulogne"
+        ]
+      },
+      {
+        "source": 288,
+        "target": 7,
+        "segment_id": "ligne-10:7-288",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-boulogne"
+        ]
+      },
+      {
+        "source": 7,
+        "target": 8,
+        "segment_id": "ligne-10:7-8",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-boulogne"
+        ]
+      },
+      {
+        "source": 8,
+        "target": 399,
+        "segment_id": "ligne-10:8-399",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-boulogne"
+        ]
+      },
+      {
+        "source": 399,
+        "target": 398,
+        "segment_id": "ligne-10:398-399",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-boulogne"
+        ]
+      },
+      {
+        "source": 398,
+        "target": 384,
+        "segment_id": "ligne-10:384-398",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-boulogne"
+        ]
+      },
+      {
+        "source": 384,
+        "target": 5,
+        "segment_id": "ligne-10:5-384",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-boulogne"
+        ]
+      },
+      {
+        "source": 5,
+        "target": 1,
+        "segment_id": "ligne-10:1-5",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-boulogne"
+        ]
+      },
+      {
+        "source": 1,
+        "target": 9,
+        "segment_id": "ligne-10:1-9",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-10:towards-boulogne"
+        ]
+      }
+    ],
+    "station_count": 23
+  },
+  {
+    "color": "#8C653D",
+    "name": "Ligne 11",
+    "number": "11",
+    "route_name": "Châtelet → Rosny-Bois-Perrier",
+    "id": "ligne-11",
+    "mode": "metro",
+    "topology_status": "reviewed",
+    "topology_date": "2026-11-05",
+    "sources": [
+      "https://www.bonjour-ratp.fr/lignes-metro/ligne-11/",
+      "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/metro.pdf"
+    ],
+    "topology": "linear",
+    "routes": [
+      {
+        "id": "ligne-11:outbound",
+        "origin": 257,
+        "destination": 450,
+        "station_ids": [
+          257,
+          265,
+          14,
+          226,
+          219,
+          12,
+          171,
+          15,
+          11,
+          336,
+          13,
+          267,
+          16,
+          453,
+          449,
+          447,
+          445,
+          442,
+          450
+        ]
+      },
+      {
+        "id": "ligne-11:inbound",
+        "origin": 450,
+        "destination": 257,
+        "station_ids": [
+          450,
+          442,
+          445,
+          447,
+          449,
+          453,
+          16,
+          267,
+          13,
+          336,
+          11,
+          15,
+          171,
+          12,
+          219,
+          226,
+          14,
+          265,
+          257
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "source": 257,
+        "target": 265,
+        "segment_id": "ligne-11:257-265",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:outbound"
+        ]
+      },
+      {
+        "source": 265,
+        "target": 14,
+        "segment_id": "ligne-11:14-265",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:outbound"
+        ]
+      },
+      {
+        "source": 14,
+        "target": 226,
+        "segment_id": "ligne-11:14-226",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:outbound"
+        ]
+      },
+      {
+        "source": 226,
+        "target": 219,
+        "segment_id": "ligne-11:219-226",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:outbound"
+        ]
+      },
+      {
+        "source": 219,
+        "target": 12,
+        "segment_id": "ligne-11:12-219",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:outbound"
+        ]
+      },
+      {
+        "source": 12,
+        "target": 171,
+        "segment_id": "ligne-11:12-171",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:outbound"
+        ]
+      },
+      {
+        "source": 171,
+        "target": 15,
+        "segment_id": "ligne-11:15-171",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:outbound"
+        ]
+      },
+      {
+        "source": 15,
+        "target": 11,
+        "segment_id": "ligne-11:11-15",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:outbound"
+        ]
+      },
+      {
+        "source": 11,
+        "target": 336,
+        "segment_id": "ligne-11:11-336",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:outbound"
+        ]
+      },
+      {
+        "source": 336,
+        "target": 13,
+        "segment_id": "ligne-11:13-336",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:outbound"
+        ]
+      },
+      {
+        "source": 13,
+        "target": 267,
+        "segment_id": "ligne-11:13-267",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:outbound"
+        ]
+      },
+      {
+        "source": 267,
+        "target": 16,
+        "segment_id": "ligne-11:16-267",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:outbound"
+        ]
+      },
+      {
+        "source": 16,
+        "target": 453,
+        "segment_id": "ligne-11:16-453",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:outbound"
+        ]
+      },
+      {
+        "source": 453,
+        "target": 449,
+        "segment_id": "ligne-11:449-453",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:outbound"
+        ]
+      },
+      {
+        "source": 449,
+        "target": 447,
+        "segment_id": "ligne-11:447-449",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:outbound"
+        ]
+      },
+      {
+        "source": 447,
+        "target": 445,
+        "segment_id": "ligne-11:445-447",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:outbound"
+        ]
+      },
+      {
+        "source": 445,
+        "target": 442,
+        "segment_id": "ligne-11:442-445",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:outbound"
+        ]
+      },
+      {
+        "source": 442,
+        "target": 450,
+        "segment_id": "ligne-11:442-450",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:outbound"
+        ]
+      },
+      {
+        "source": 450,
+        "target": 442,
+        "segment_id": "ligne-11:442-450",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:inbound"
+        ]
+      },
+      {
+        "source": 442,
+        "target": 445,
+        "segment_id": "ligne-11:442-445",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:inbound"
+        ]
+      },
+      {
+        "source": 445,
+        "target": 447,
+        "segment_id": "ligne-11:445-447",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:inbound"
+        ]
+      },
+      {
+        "source": 447,
+        "target": 449,
+        "segment_id": "ligne-11:447-449",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:inbound"
+        ]
+      },
+      {
+        "source": 449,
+        "target": 453,
+        "segment_id": "ligne-11:449-453",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:inbound"
+        ]
+      },
+      {
+        "source": 453,
+        "target": 16,
+        "segment_id": "ligne-11:16-453",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:inbound"
+        ]
+      },
+      {
+        "source": 16,
+        "target": 267,
+        "segment_id": "ligne-11:16-267",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:inbound"
+        ]
+      },
+      {
+        "source": 267,
+        "target": 13,
+        "segment_id": "ligne-11:13-267",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:inbound"
+        ]
+      },
+      {
+        "source": 13,
+        "target": 336,
+        "segment_id": "ligne-11:13-336",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:inbound"
+        ]
+      },
+      {
+        "source": 336,
+        "target": 11,
+        "segment_id": "ligne-11:11-336",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:inbound"
+        ]
+      },
+      {
+        "source": 11,
+        "target": 15,
+        "segment_id": "ligne-11:11-15",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:inbound"
+        ]
+      },
+      {
+        "source": 15,
+        "target": 171,
+        "segment_id": "ligne-11:15-171",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:inbound"
+        ]
+      },
+      {
+        "source": 171,
+        "target": 12,
+        "segment_id": "ligne-11:12-171",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:inbound"
+        ]
+      },
+      {
+        "source": 12,
+        "target": 219,
+        "segment_id": "ligne-11:12-219",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:inbound"
+        ]
+      },
+      {
+        "source": 219,
+        "target": 226,
+        "segment_id": "ligne-11:219-226",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:inbound"
+        ]
+      },
+      {
+        "source": 226,
+        "target": 14,
+        "segment_id": "ligne-11:14-226",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:inbound"
+        ]
+      },
+      {
+        "source": 14,
+        "target": 265,
+        "segment_id": "ligne-11:14-265",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:inbound"
+        ]
+      },
+      {
+        "source": 265,
+        "target": 257,
+        "segment_id": "ligne-11:257-265",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-11:inbound"
+        ]
+      }
+    ],
+    "station_count": 19
+  },
+  {
+    "color": "#128B5B",
+    "name": "Ligne 12",
+    "number": "12",
+    "route_name": "Mairie d'Aubervilliers → Mairie d'Issy",
+    "id": "ligne-12",
+    "mode": "metro",
+    "topology_status": "reviewed",
+    "topology_date": "2026-11-05",
+    "sources": [
+      "https://www.bonjour-ratp.fr/lignes-metro/ligne-12/",
+      "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/metro.pdf"
+    ],
+    "topology": "linear",
+    "routes": [
+      {
+        "id": "ligne-12:outbound",
+        "origin": 446,
+        "destination": 18,
+        "station_ids": [
+          446,
+          437,
+          28,
+          32,
+          35,
+          191,
+          33,
+          20,
+          26,
+          164,
+          25,
+          27,
+          30,
+          229,
+          365,
+          243,
+          22,
+          17,
+          31,
+          395,
+          34,
+          21,
+          188,
+          23,
+          291,
+          24,
+          19,
+          37,
+          29,
+          36,
+          18
+        ]
+      },
+      {
+        "id": "ligne-12:inbound",
+        "origin": 18,
+        "destination": 446,
+        "station_ids": [
+          18,
+          36,
+          29,
+          37,
+          19,
+          24,
+          291,
+          23,
+          188,
+          21,
+          34,
+          395,
+          31,
+          17,
+          22,
+          243,
+          365,
+          229,
+          30,
+          27,
+          25,
+          164,
+          26,
+          20,
+          33,
+          191,
+          35,
+          32,
+          28,
+          437,
+          446
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "source": 446,
+        "target": 437,
+        "segment_id": "ligne-12:437-446",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 437,
+        "target": 28,
+        "segment_id": "ligne-12:28-437",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 28,
+        "target": 32,
+        "segment_id": "ligne-12:28-32",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 32,
+        "target": 35,
+        "segment_id": "ligne-12:32-35",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 35,
+        "target": 191,
+        "segment_id": "ligne-12:35-191",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 191,
+        "target": 33,
+        "segment_id": "ligne-12:33-191",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 33,
+        "target": 20,
+        "segment_id": "ligne-12:20-33",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 20,
+        "target": 26,
+        "segment_id": "ligne-12:20-26",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 26,
+        "target": 164,
+        "segment_id": "ligne-12:26-164",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 164,
+        "target": 25,
+        "segment_id": "ligne-12:25-164",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 25,
+        "target": 27,
+        "segment_id": "ligne-12:25-27",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 27,
+        "target": 30,
+        "segment_id": "ligne-12:27-30",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 30,
+        "target": 229,
+        "segment_id": "ligne-12:30-229",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 229,
+        "target": 365,
+        "segment_id": "ligne-12:229-365",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 365,
+        "target": 243,
+        "segment_id": "ligne-12:243-365",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 243,
+        "target": 22,
+        "segment_id": "ligne-12:22-243",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 22,
+        "target": 17,
+        "segment_id": "ligne-12:17-22",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 17,
+        "target": 31,
+        "segment_id": "ligne-12:17-31",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 31,
+        "target": 395,
+        "segment_id": "ligne-12:31-395",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 395,
+        "target": 34,
+        "segment_id": "ligne-12:34-395",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 34,
+        "target": 21,
+        "segment_id": "ligne-12:21-34",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 21,
+        "target": 188,
+        "segment_id": "ligne-12:21-188",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 188,
+        "target": 23,
+        "segment_id": "ligne-12:23-188",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 23,
+        "target": 291,
+        "segment_id": "ligne-12:23-291",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 291,
+        "target": 24,
+        "segment_id": "ligne-12:24-291",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 24,
+        "target": 19,
+        "segment_id": "ligne-12:19-24",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 19,
+        "target": 37,
+        "segment_id": "ligne-12:19-37",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 37,
+        "target": 29,
+        "segment_id": "ligne-12:29-37",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 29,
+        "target": 36,
+        "segment_id": "ligne-12:29-36",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 36,
+        "target": 18,
+        "segment_id": "ligne-12:18-36",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:outbound"
+        ]
+      },
+      {
+        "source": 18,
+        "target": 36,
+        "segment_id": "ligne-12:18-36",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 36,
+        "target": 29,
+        "segment_id": "ligne-12:29-36",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 29,
+        "target": 37,
+        "segment_id": "ligne-12:29-37",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 37,
+        "target": 19,
+        "segment_id": "ligne-12:19-37",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 19,
+        "target": 24,
+        "segment_id": "ligne-12:19-24",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 24,
+        "target": 291,
+        "segment_id": "ligne-12:24-291",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 291,
+        "target": 23,
+        "segment_id": "ligne-12:23-291",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 23,
+        "target": 188,
+        "segment_id": "ligne-12:23-188",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 188,
+        "target": 21,
+        "segment_id": "ligne-12:21-188",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 21,
+        "target": 34,
+        "segment_id": "ligne-12:21-34",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 34,
+        "target": 395,
+        "segment_id": "ligne-12:34-395",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 395,
+        "target": 31,
+        "segment_id": "ligne-12:31-395",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 31,
+        "target": 17,
+        "segment_id": "ligne-12:17-31",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 17,
+        "target": 22,
+        "segment_id": "ligne-12:17-22",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 22,
+        "target": 243,
+        "segment_id": "ligne-12:22-243",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 243,
+        "target": 365,
+        "segment_id": "ligne-12:243-365",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 365,
+        "target": 229,
+        "segment_id": "ligne-12:229-365",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 229,
+        "target": 30,
+        "segment_id": "ligne-12:30-229",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 30,
+        "target": 27,
+        "segment_id": "ligne-12:27-30",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 27,
+        "target": 25,
+        "segment_id": "ligne-12:25-27",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 25,
+        "target": 164,
+        "segment_id": "ligne-12:25-164",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 164,
+        "target": 26,
+        "segment_id": "ligne-12:26-164",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 26,
+        "target": 20,
+        "segment_id": "ligne-12:20-26",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 20,
+        "target": 33,
+        "segment_id": "ligne-12:20-33",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 33,
+        "target": 191,
+        "segment_id": "ligne-12:33-191",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 191,
+        "target": 35,
+        "segment_id": "ligne-12:35-191",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 35,
+        "target": 32,
+        "segment_id": "ligne-12:32-35",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 32,
+        "target": 28,
+        "segment_id": "ligne-12:28-32",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 28,
+        "target": 437,
+        "segment_id": "ligne-12:28-437",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      },
+      {
+        "source": 437,
+        "target": 446,
+        "segment_id": "ligne-12:437-446",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-12:inbound"
+        ]
+      }
+    ],
+    "station_count": 31
+  },
+  {
+    "color": "#8BD3DE",
+    "name": "Ligne 13",
+    "number": "13",
+    "route_name": "Châtillon - Montrouge → Asnières - Gennevilliers - Les Courtilles / Châtillon - Montrouge → Saint-Denis - Université",
+    "id": "ligne-13",
+    "mode": "metro",
+    "topology_status": "reviewed",
+    "topology_date": "2026-11-05",
+    "sources": [
+      "https://www.bonjour-ratp.fr/lignes-metro/ligne-13/",
+      "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/metro.pdf"
+    ],
+    "topology": "branched",
+    "branch_point": 44,
+    "routes": [
+      {
+        "id": "ligne-13:branch-1-outbound",
+        "origin": 39,
+        "destination": 60,
+        "station_ids": [
+          39,
+          58,
+          48,
+          52,
+          40,
+          38,
+          45,
+          188,
+          2,
+          56,
+          47,
+          358,
+          247,
+          386,
+          229,
+          62,
+          167,
+          44,
+          42,
+          57,
+          49,
+          43,
+          59,
+          60
+        ]
+      },
+      {
+        "id": "ligne-13:branch-1-inbound",
+        "origin": 60,
+        "destination": 39,
+        "station_ids": [
+          60,
+          59,
+          43,
+          49,
+          57,
+          42,
+          44,
+          167,
+          62,
+          229,
+          386,
+          247,
+          358,
+          47,
+          56,
+          2,
+          188,
+          45,
+          38,
+          40,
+          52,
+          48,
+          58,
+          39
+        ]
+      },
+      {
+        "id": "ligne-13:branch-2-outbound",
+        "origin": 39,
+        "destination": 46,
+        "station_ids": [
+          39,
+          58,
+          48,
+          52,
+          40,
+          38,
+          45,
+          188,
+          2,
+          56,
+          47,
+          358,
+          247,
+          386,
+          229,
+          62,
+          167,
+          44,
+          61,
+          51,
+          53,
+          50,
+          41,
+          54,
+          55,
+          46
+        ]
+      },
+      {
+        "id": "ligne-13:branch-2-inbound",
+        "origin": 46,
+        "destination": 39,
+        "station_ids": [
+          46,
+          55,
+          54,
+          41,
+          50,
+          53,
+          51,
+          61,
+          44,
+          167,
+          62,
+          229,
+          386,
+          247,
+          358,
+          47,
+          56,
+          2,
+          188,
+          45,
+          38,
+          40,
+          52,
+          48,
+          58,
+          39
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "source": 39,
+        "target": 58,
+        "segment_id": "ligne-13:39-58",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-outbound",
+          "ligne-13:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 58,
+        "target": 48,
+        "segment_id": "ligne-13:48-58",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-outbound",
+          "ligne-13:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 48,
+        "target": 52,
+        "segment_id": "ligne-13:48-52",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-outbound",
+          "ligne-13:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 52,
+        "target": 40,
+        "segment_id": "ligne-13:40-52",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-outbound",
+          "ligne-13:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 40,
+        "target": 38,
+        "segment_id": "ligne-13:38-40",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-outbound",
+          "ligne-13:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 38,
+        "target": 45,
+        "segment_id": "ligne-13:38-45",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-outbound",
+          "ligne-13:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 45,
+        "target": 188,
+        "segment_id": "ligne-13:45-188",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-outbound",
+          "ligne-13:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 188,
+        "target": 2,
+        "segment_id": "ligne-13:2-188",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-outbound",
+          "ligne-13:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 2,
+        "target": 56,
+        "segment_id": "ligne-13:2-56",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-outbound",
+          "ligne-13:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 56,
+        "target": 47,
+        "segment_id": "ligne-13:47-56",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-outbound",
+          "ligne-13:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 47,
+        "target": 358,
+        "segment_id": "ligne-13:47-358",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-outbound",
+          "ligne-13:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 358,
+        "target": 247,
+        "segment_id": "ligne-13:247-358",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-outbound",
+          "ligne-13:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 247,
+        "target": 386,
+        "segment_id": "ligne-13:247-386",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-outbound",
+          "ligne-13:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 386,
+        "target": 229,
+        "segment_id": "ligne-13:229-386",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-outbound",
+          "ligne-13:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 229,
+        "target": 62,
+        "segment_id": "ligne-13:62-229",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-outbound",
+          "ligne-13:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 62,
+        "target": 167,
+        "segment_id": "ligne-13:62-167",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-outbound",
+          "ligne-13:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 167,
+        "target": 44,
+        "segment_id": "ligne-13:44-167",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-outbound",
+          "ligne-13:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 44,
+        "target": 42,
+        "segment_id": "ligne-13:42-44",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-outbound"
+        ]
+      },
+      {
+        "source": 42,
+        "target": 57,
+        "segment_id": "ligne-13:42-57",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-outbound"
+        ]
+      },
+      {
+        "source": 57,
+        "target": 49,
+        "segment_id": "ligne-13:49-57",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-outbound"
+        ]
+      },
+      {
+        "source": 49,
+        "target": 43,
+        "segment_id": "ligne-13:43-49",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-outbound"
+        ]
+      },
+      {
+        "source": 43,
+        "target": 59,
+        "segment_id": "ligne-13:43-59",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-outbound"
+        ]
+      },
+      {
+        "source": 59,
+        "target": 60,
+        "segment_id": "ligne-13:59-60",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-outbound"
+        ]
+      },
+      {
+        "source": 60,
+        "target": 59,
+        "segment_id": "ligne-13:59-60",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-inbound"
+        ]
+      },
+      {
+        "source": 59,
+        "target": 43,
+        "segment_id": "ligne-13:43-59",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-inbound"
+        ]
+      },
+      {
+        "source": 43,
+        "target": 49,
+        "segment_id": "ligne-13:43-49",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-inbound"
+        ]
+      },
+      {
+        "source": 49,
+        "target": 57,
+        "segment_id": "ligne-13:49-57",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-inbound"
+        ]
+      },
+      {
+        "source": 57,
+        "target": 42,
+        "segment_id": "ligne-13:42-57",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-inbound"
+        ]
+      },
+      {
+        "source": 42,
+        "target": 44,
+        "segment_id": "ligne-13:42-44",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-inbound"
+        ]
+      },
+      {
+        "source": 44,
+        "target": 167,
+        "segment_id": "ligne-13:44-167",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-inbound",
+          "ligne-13:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 167,
+        "target": 62,
+        "segment_id": "ligne-13:62-167",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-inbound",
+          "ligne-13:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 62,
+        "target": 229,
+        "segment_id": "ligne-13:62-229",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-inbound",
+          "ligne-13:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 229,
+        "target": 386,
+        "segment_id": "ligne-13:229-386",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-inbound",
+          "ligne-13:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 386,
+        "target": 247,
+        "segment_id": "ligne-13:247-386",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-inbound",
+          "ligne-13:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 247,
+        "target": 358,
+        "segment_id": "ligne-13:247-358",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-inbound",
+          "ligne-13:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 358,
+        "target": 47,
+        "segment_id": "ligne-13:47-358",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-inbound",
+          "ligne-13:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 47,
+        "target": 56,
+        "segment_id": "ligne-13:47-56",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-inbound",
+          "ligne-13:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 56,
+        "target": 2,
+        "segment_id": "ligne-13:2-56",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-inbound",
+          "ligne-13:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 2,
+        "target": 188,
+        "segment_id": "ligne-13:2-188",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-inbound",
+          "ligne-13:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 188,
+        "target": 45,
+        "segment_id": "ligne-13:45-188",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-inbound",
+          "ligne-13:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 45,
+        "target": 38,
+        "segment_id": "ligne-13:38-45",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-inbound",
+          "ligne-13:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 38,
+        "target": 40,
+        "segment_id": "ligne-13:38-40",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-inbound",
+          "ligne-13:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 40,
+        "target": 52,
+        "segment_id": "ligne-13:40-52",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-inbound",
+          "ligne-13:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 52,
+        "target": 48,
+        "segment_id": "ligne-13:48-52",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-inbound",
+          "ligne-13:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 48,
+        "target": 58,
+        "segment_id": "ligne-13:48-58",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-inbound",
+          "ligne-13:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 58,
+        "target": 39,
+        "segment_id": "ligne-13:39-58",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-1-inbound",
+          "ligne-13:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 44,
+        "target": 61,
+        "segment_id": "ligne-13:44-61",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 61,
+        "target": 51,
+        "segment_id": "ligne-13:51-61",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 51,
+        "target": 53,
+        "segment_id": "ligne-13:51-53",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 53,
+        "target": 50,
+        "segment_id": "ligne-13:50-53",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 50,
+        "target": 41,
+        "segment_id": "ligne-13:41-50",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 41,
+        "target": 54,
+        "segment_id": "ligne-13:41-54",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 54,
+        "target": 55,
+        "segment_id": "ligne-13:54-55",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 55,
+        "target": 46,
+        "segment_id": "ligne-13:46-55",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-2-outbound"
+        ]
+      },
+      {
+        "source": 46,
+        "target": 55,
+        "segment_id": "ligne-13:46-55",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 55,
+        "target": 54,
+        "segment_id": "ligne-13:54-55",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 54,
+        "target": 41,
+        "segment_id": "ligne-13:41-54",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 41,
+        "target": 50,
+        "segment_id": "ligne-13:41-50",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 50,
+        "target": 53,
+        "segment_id": "ligne-13:50-53",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 53,
+        "target": 51,
+        "segment_id": "ligne-13:51-53",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 51,
+        "target": 61,
+        "segment_id": "ligne-13:51-61",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-2-inbound"
+        ]
+      },
+      {
+        "source": 61,
+        "target": 44,
+        "segment_id": "ligne-13:44-61",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-13:branch-2-inbound"
+        ]
+      }
+    ],
+    "station_count": 32
+  },
+  {
+    "color": "#65318F",
+    "name": "Ligne 14",
+    "number": "14",
+    "route_name": "Saint-Denis - Pleyel → Aéroport d'Orly",
+    "id": "ligne-14",
+    "mode": "metro",
+    "topology_status": "reviewed",
+    "topology_date": "2026-11-05",
+    "sources": [
+      "https://www.bonjour-ratp.fr/lignes-metro/ligne-14/",
+      "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/metro.pdf"
+    ],
+    "topology": "linear",
+    "routes": [
+      {
+        "id": "ligne-14:outbound",
+        "origin": 451,
+        "destination": 438,
+        "station_ids": [
+          451,
+          50,
+          452,
+          57,
+          448,
+          229,
+          365,
+          320,
+          257,
+          263,
+          280,
+          63,
+          64,
+          65,
+          319,
+          443,
+          455,
+          444,
+          441,
+          454,
+          438
+        ]
+      },
+      {
+        "id": "ligne-14:inbound",
+        "origin": 438,
+        "destination": 451,
+        "station_ids": [
+          438,
+          454,
+          441,
+          444,
+          455,
+          443,
+          319,
+          65,
+          64,
+          63,
+          280,
+          263,
+          257,
+          320,
+          365,
+          229,
+          448,
+          57,
+          452,
+          50,
+          451
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "source": 451,
+        "target": 50,
+        "segment_id": "ligne-14:50-451",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:outbound"
+        ]
+      },
+      {
+        "source": 50,
+        "target": 452,
+        "segment_id": "ligne-14:50-452",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:outbound"
+        ]
+      },
+      {
+        "source": 452,
+        "target": 57,
+        "segment_id": "ligne-14:57-452",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:outbound"
+        ]
+      },
+      {
+        "source": 57,
+        "target": 448,
+        "segment_id": "ligne-14:57-448",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:outbound"
+        ]
+      },
+      {
+        "source": 448,
+        "target": 229,
+        "segment_id": "ligne-14:229-448",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:outbound"
+        ]
+      },
+      {
+        "source": 229,
+        "target": 365,
+        "segment_id": "ligne-14:229-365",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:outbound"
+        ]
+      },
+      {
+        "source": 365,
+        "target": 320,
+        "segment_id": "ligne-14:320-365",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:outbound"
+        ]
+      },
+      {
+        "source": 320,
+        "target": 257,
+        "segment_id": "ligne-14:257-320",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:outbound"
+        ]
+      },
+      {
+        "source": 257,
+        "target": 263,
+        "segment_id": "ligne-14:257-263",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:outbound"
+        ]
+      },
+      {
+        "source": 263,
+        "target": 280,
+        "segment_id": "ligne-14:263-280",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:outbound"
+        ]
+      },
+      {
+        "source": 280,
+        "target": 63,
+        "segment_id": "ligne-14:63-280",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:outbound"
+        ]
+      },
+      {
+        "source": 63,
+        "target": 64,
+        "segment_id": "ligne-14:63-64",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:outbound"
+        ]
+      },
+      {
+        "source": 64,
+        "target": 65,
+        "segment_id": "ligne-14:64-65",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:outbound"
+        ]
+      },
+      {
+        "source": 65,
+        "target": 319,
+        "segment_id": "ligne-14:65-319",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:outbound"
+        ]
+      },
+      {
+        "source": 319,
+        "target": 443,
+        "segment_id": "ligne-14:319-443",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:outbound"
+        ]
+      },
+      {
+        "source": 443,
+        "target": 455,
+        "segment_id": "ligne-14:443-455",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:outbound"
+        ]
+      },
+      {
+        "source": 455,
+        "target": 444,
+        "segment_id": "ligne-14:444-455",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:outbound"
+        ]
+      },
+      {
+        "source": 444,
+        "target": 441,
+        "segment_id": "ligne-14:441-444",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:outbound"
+        ]
+      },
+      {
+        "source": 441,
+        "target": 454,
+        "segment_id": "ligne-14:441-454",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:outbound"
+        ]
+      },
+      {
+        "source": 454,
+        "target": 438,
+        "segment_id": "ligne-14:438-454",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:outbound"
+        ]
+      },
+      {
+        "source": 438,
+        "target": 454,
+        "segment_id": "ligne-14:438-454",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:inbound"
+        ]
+      },
+      {
+        "source": 454,
+        "target": 441,
+        "segment_id": "ligne-14:441-454",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:inbound"
+        ]
+      },
+      {
+        "source": 441,
+        "target": 444,
+        "segment_id": "ligne-14:441-444",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:inbound"
+        ]
+      },
+      {
+        "source": 444,
+        "target": 455,
+        "segment_id": "ligne-14:444-455",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:inbound"
+        ]
+      },
+      {
+        "source": 455,
+        "target": 443,
+        "segment_id": "ligne-14:443-455",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:inbound"
+        ]
+      },
+      {
+        "source": 443,
+        "target": 319,
+        "segment_id": "ligne-14:319-443",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:inbound"
+        ]
+      },
+      {
+        "source": 319,
+        "target": 65,
+        "segment_id": "ligne-14:65-319",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:inbound"
+        ]
+      },
+      {
+        "source": 65,
+        "target": 64,
+        "segment_id": "ligne-14:64-65",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:inbound"
+        ]
+      },
+      {
+        "source": 64,
+        "target": 63,
+        "segment_id": "ligne-14:63-64",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:inbound"
+        ]
+      },
+      {
+        "source": 63,
+        "target": 280,
+        "segment_id": "ligne-14:63-280",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:inbound"
+        ]
+      },
+      {
+        "source": 280,
+        "target": 263,
+        "segment_id": "ligne-14:263-280",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:inbound"
+        ]
+      },
+      {
+        "source": 263,
+        "target": 257,
+        "segment_id": "ligne-14:257-263",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:inbound"
+        ]
+      },
+      {
+        "source": 257,
+        "target": 320,
+        "segment_id": "ligne-14:257-320",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:inbound"
+        ]
+      },
+      {
+        "source": 320,
+        "target": 365,
+        "segment_id": "ligne-14:320-365",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:inbound"
+        ]
+      },
+      {
+        "source": 365,
+        "target": 229,
+        "segment_id": "ligne-14:229-365",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:inbound"
+        ]
+      },
+      {
+        "source": 229,
+        "target": 448,
+        "segment_id": "ligne-14:229-448",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:inbound"
+        ]
+      },
+      {
+        "source": 448,
+        "target": 57,
+        "segment_id": "ligne-14:57-448",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:inbound"
+        ]
+      },
+      {
+        "source": 57,
+        "target": 452,
+        "segment_id": "ligne-14:57-452",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:inbound"
+        ]
+      },
+      {
+        "source": 452,
+        "target": 50,
+        "segment_id": "ligne-14:50-452",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:inbound"
+        ]
+      },
+      {
+        "source": 50,
+        "target": 451,
+        "segment_id": "ligne-14:50-451",
+        "travel_time_minutes": null,
+        "routes": [
+          "ligne-14:inbound"
+        ]
+      }
+    ],
+    "station_count": 21
+  }
+]
